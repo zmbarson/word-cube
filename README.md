@@ -22,7 +22,7 @@ Co-designed by Mia Cozart.
 
 <p align="center">
   <b>Links:</b><br>
-  <a href="https://ze-eb.itch.io/wordcube">Play it your browser</a> | 
-  <a href="https://www.youtube.com/watch?v=WAuXIMbcXeQ">Watch the original trailer</a>
+  <a href="https://ze-eb.itch.io/wordcube">Play in your browser</a> | 
+  <a href="https://www.youtube.com/watch?v=WAuXIMbcXeQ">Watch the (old) trailer</a>
   <br><br>
 </p>
