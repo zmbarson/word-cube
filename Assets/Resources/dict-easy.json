@@ -1,0 +1,2084 @@
+[
+    {
+        "word": "abs",
+        "pos": "noun",
+        "def": "The abdominal muscles.",
+        "pron": "/æbz/"
+    },
+    {
+        "word": "ace",
+        "pos": "transitive verb",
+        "def": "(in tennis and similar games) serve an ace against (an opponent).",
+        "pron": "/eɪs/"
+    },
+    {
+        "word": "act",
+        "pos": "intransitive verb",
+        "def": "Take action; do something.",
+        "pron": "/ækt/"
+    },
+    {
+        "word": "ads",
+        "pos": "noun",
+        "def": "An advertisement.",
+        "pron": "/ad/"
+    },
+    {
+        "word": "age",
+        "pos": "noun",
+        "def": "The length of time that a person has lived or a thing has existed.",
+        "pron": "/eɪdʒ/"
+    },
+    {
+        "word": "ago",
+        "pos": "adverb",
+        "def": "(used after a measurement of time) before the present; earlier.",
+        "pron": "/əˈɡoʊ/"
+    },
+    {
+        "word": "aid",
+        "pos": "transitive verb",
+        "def": "Help, assist, or support (someone or something) in the achievement of something.",
+        "pron": "/eɪd/"
+    },
+    {
+        "word": "aim",
+        "pos": "verb",
+        "def": "Point or direct (a weapon or camera) at a target.",
+        "pron": "/eɪm/"
+    },
+    {
+        "word": "air",
+        "pos": "verb",
+        "def": "Express (an opinion or grievance) publicly.",
+        "pron": "/ɛr/"
+    },
+    {
+        "word": "amp",
+        "pos": "noun",
+        "def": "Short for ampere",
+        "pron": "/æmp/"
+    },
+    {
+        "word": "and",
+        "pos": "noun",
+        "def": "A Boolean operator which gives the value one if and only if all the operands are one, and otherwise has a value of zero.",
+        "pron": "/ænd/"
+    },
+    {
+        "word": "ant",
+        "pos": "noun",
+        "def": "A small insect, often with a sting, that usually lives in a complex social colony with one or more breeding queens. It is wingless except for fertile adults, which often form large mating swarms, and is proverbial for industriousness.",
+        "pron": "/ænt/"
+    },
+    {
+        "word": "any",
+        "pos": "determiner",
+        "def": "Used to refer to one or some of a thing or number of things, no matter how much or how many.",
+        "pron": "/ˈɛni/"
+    },
+    {
+        "word": "apt",
+        "pos": "adjective",
+        "def": "Appropriate or suitable in the circumstances.",
+        "pron": "/æpt/"
+    },
+    {
+        "word": "arc",
+        "pos": "noun",
+        "def": "A part of the circumference of a circle or other curve.",
+        "pron": "/ɑrk/"
+    },
+    {
+        "word": "arm",
+        "pos": "noun",
+        "def": "Each of the two upper limbs of the human body from the shoulder to the hand.",
+        "pron": "/ɑrm/"
+    },
+    {
+        "word": "art",
+        "pos": "noun",
+        "def": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power.",
+        "pron": "/ɑrt/"
+    },
+    {
+        "word": "ash",
+        "pos": "noun",
+        "def": "The powdery residue left after the burning of a substance.",
+        "pron": "/æʃ/"
+    },
+    {
+        "word": "ask",
+        "pos": "verb",
+        "def": "Say something in order to obtain an answer or some information.",
+        "pron": "/æsk/"
+    },
+    {
+        "word": "asp",
+        "pos": "noun",
+        "def": "A small southern European viper with an upturned snout.",
+        "pron": "/æsp/"
+    },
+    {
+        "word": "ate",
+        "pos": "verb",
+        "def": "Past of eat",
+        "pron": "/eɪt/"
+    },
+    {
+        "word": "ave",
+        "pos": "noun",
+        "def": "Short for Ave Maria",
+        "pron": "/ˈɑveɪ/"
+    },
+    {
+        "word": "aye",
+        "pos": "noun",
+        "def": "An affirmative answer or assent, especially in voting.",
+        "pron": "/aɪ/"
+    },
+    {
+        "word": "bad",
+        "pos": "adverb",
+        "def": "Badly.",
+        "pron": "/bæd/"
+    },
+    {
+        "word": "bag",
+        "pos": "transitive verb",
+        "def": "Put (something) in a bag.",
+        "pron": "/bæɡ/"
+    },
+    {
+        "word": "ban",
+        "pos": "transitive verb",
+        "def": "Officially or legally prohibit.",
+        "pron": "/bæn/"
+    },
+    {
+        "word": "bar",
+        "pos": "transitive verb",
+        "def": "Fasten (something, especially a door or window) with a bar or bars.",
+        "pron": "/bɑr/"
+    },
+    {
+        "word": "bat",
+        "pos": "verb",
+        "def": "(of a team or a player in sports such as baseball) take in turns the role of hitting rather than fielding.",
+        "pron": "/bæt/"
+    },
+    {
+        "word": "bay",
+        "pos": "noun",
+        "def": "A broad inlet of the sea where the land curves inward.",
+        "pron": "/beɪ/"
+    },
+    {
+        "word": "bed",
+        "pos": "verb",
+        "def": "Settle down to sleep or rest for the night in an improvised place.",
+        "pron": "/bɛd/"
+    },
+    {
+        "word": "ben",
+        "pos": "noun",
+        "def": "A high mountain or mountain peak (especially in place names)",
+        "pron": "/bɛn/"
+    },
+    {
+        "word": "bet",
+        "pos": "verb",
+        "def": "Risk something, usually a sum of money, against someone else's on the basis of the outcome of a future event, such as the result of a race or game.",
+        "pron": "/bɛt/"
+    },
+    {
+        "word": "bid",
+        "pos": "transitive verb",
+        "def": "Offer (a certain price) for something, especially at an auction.",
+        "pron": "/bɪd/"
+    },
+    {
+        "word": "big",
+        "pos": "transitive verb",
+        "def": "Praise or recommend something highly.",
+        "pron": "/bɪɡ/"
+    },
+    {
+        "word": "bin",
+        "pos": "transitive verb",
+        "def": "Place (something) in a bin.",
+        "pron": "/bɪn/"
+    },
+    {
+        "word": "bio",
+        "pos": "noun",
+        "def": "A biography or short biographical profile of someone.",
+        "pron": "/ˈbaɪoʊ/"
+    },
+    {
+        "word": "bit",
+        "pos": "noun",
+        "def": "A small piece, part, or quantity of something.",
+        "pron": "/bɪt/"
+    },
+    {
+        "word": "biz",
+        "pos": "noun",
+        "def": "A business, especially one connected with entertainment.",
+        "pron": "/bɪz/"
+    },
+    {
+        "word": "bon",
+        "pos": "noun",
+        "def": "A Japanese Buddhist festival held annually in August to honor the dead.",
+        "pron": "/bɑn/"
+    },
+    {
+        "word": "bow",
+        "pos": "transitive verb",
+        "def": "Play (a stringed instrument or music) using a bow.",
+        "pron": "/boʊ/"
+    },
+    {
+        "word": "box",
+        "pos": "transitive verb",
+        "def": "Put in or provide with a box.",
+        "pron": "/bɑks/"
+    },
+    {
+        "word": "boy",
+        "pos": "noun",
+        "def": "A male child or young man.",
+        "pron": "/bɔɪ/"
+    },
+    {
+        "word": "bra",
+        "pos": "noun",
+        "def": "An undergarment worn by women to support the breasts.",
+        "pron": "/brɑ/"
+    },
+    {
+        "word": "bug",
+        "pos": "transitive verb",
+        "def": "Conceal a miniature microphone in (a room or device) in order to monitor or record someone's conversations.",
+        "pron": "/bəɡ/"
+    },
+    {
+        "word": "bus",
+        "pos": "verb",
+        "def": "Transport in a communal road vehicle.",
+        "pron": "/bəs/"
+    },
+    {
+        "word": "but",
+        "pos": "preposition",
+        "def": "Except; apart from; other than.",
+        "pron": "/bət/"
+    },
+    {
+        "word": "buy",
+        "pos": "transitive verb",
+        "def": "Obtain in exchange for payment.",
+        "pron": "/baɪ/"
+    },
+    {
+        "word": "bye",
+        "pos": "noun",
+        "def": "The transfer of a competitor directly to the next round of a competition in the absence of an assigned opponent.",
+        "pron": "/baɪ/"
+    },
+    {
+        "word": "cab",
+        "pos": "noun",
+        "def": "A taxicab.",
+        "pron": "/kæb/"
+    },
+    {
+        "word": "cad",
+        "pos": "noun",
+        "def": "A man who behaves dishonorably, especially toward a woman.",
+        "pron": "/kæd/"
+    },
+    {
+        "word": "cam",
+        "pos": "noun",
+        "def": "A projection on a rotating part in machinery, designed to make sliding contact with another part while rotating and to impart reciprocal or variable motion to it.",
+        "pron": "/kæm/"
+    },
+    {
+        "word": "can",
+        "pos": "modal verb",
+        "def": "Be able to.",
+        "pron": "/kæn/"
+    },
+    {
+        "word": "cap",
+        "pos": "transitive verb",
+        "def": "Put a lid or cover on.",
+        "pron": "/kæp/"
+    },
+    {
+        "word": "car",
+        "pos": "noun",
+        "def": "A four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people.",
+        "pron": "/kɑr/"
+    },
+    {
+        "word": "cat",
+        "pos": "transitive verb",
+        "def": "Raise (an anchor) from the surface of the water to the cathead.",
+        "pron": "/kæt/"
+    },
+    {
+        "word": "cgi",
+        "pos": "abbreviation",
+        "def": "Common gateway interface (a script standard for writing interactive programs generated by visitors to web pages).",
+        "pron": "/siːdʒiːˈaɪ/"
+    },
+    {
+        "word": "chi",
+        "pos": "noun",
+        "def": "The twenty-second letter of the Greek alphabet (Χ, χ), transliterated in the traditional Latin style as ‘ch’ (as in Christ) or in the modern style as ‘kh’ (as in Khaniá and in the etymologies of this dictionary).",
+        "pron": "/kaɪ/"
+    },
+    {
+        "word": "cod",
+        "pos": "noun",
+        "def": "A large marine fish with a small barbel on the chin.",
+        "pron": "/kɑd/"
+    },
+    {
+        "word": "col",
+        "pos": "noun",
+        "def": "The lowest point of a ridge or saddle between two peaks, typically affording a pass from one side of a mountain range to another.",
+        "pron": "/kɑl/"
+    },
+    {
+        "word": "con",
+        "pos": "transitive verb",
+        "def": "Persuade (someone) to do or believe something, typically by use of a deception.",
+        "pron": "/kɑn/"
+    },
+    {
+        "word": "cop",
+        "pos": "transitive verb",
+        "def": "Catch or arrest (an offender)",
+        "pron": "/kɑp/"
+    },
+    {
+        "word": "cos",
+        "pos": "noun",
+        "def": "A lettuce of a variety with crisp narrow leaves that form a tall head; a romaine.",
+        "pron": "/kɑs/"
+    },
+    {
+        "word": "cow",
+        "pos": "noun",
+        "def": "A fully grown female animal of a domesticated breed of ox, kept to produce milk or beef.",
+        "pron": "/kaʊ/"
+    },
+    {
+        "word": "cry",
+        "pos": "intransitive verb",
+        "def": "Shed tears, typically as an expression of distress, pain, or sorrow.",
+        "pron": "/kraɪ/"
+    },
+    {
+        "word": "cup",
+        "pos": "transitive verb",
+        "def": "Form (one's hand or hands) into the curved shape of a cup.",
+        "pron": "/kəp/"
+    },
+    {
+        "word": "cut",
+        "pos": "transitive verb",
+        "def": "Make an opening, incision, or wound in (something) with a sharp-edged tool or object.",
+        "pron": "/kət/"
+    },
+    {
+        "word": "dam",
+        "pos": "transitive verb",
+        "def": "Build a dam across (a river or lake)",
+        "pron": "/dæm/"
+    },
+    {
+        "word": "dan",
+        "pos": "noun",
+        "def": "Any of ten degrees of advanced proficiency in judo or karate.",
+        "pron": "/dæn/"
+    },
+    {
+        "word": "day",
+        "pos": "noun",
+        "def": "A period of twenty-four hours as a unit of time, reckoned from one midnight to the next, corresponding to a rotation of the earth on its axis.",
+        "pron": "/deɪ/"
+    },
+    {
+        "word": "def",
+        "pos": "adjective",
+        "def": "Excellent.",
+        "pron": "/dɛf/"
+    },
+    {
+        "word": "del",
+        "pos": "noun",
+        "def": "An operator used in vector analysis.",
+        "pron": "/dɛl/"
+    },
+    {
+        "word": "dem",
+        "pos": "determiner",
+        "def": "Those.",
+        "pron": "/dɛm/"
+    },
+    {
+        "word": "den",
+        "pos": "noun",
+        "def": "A wild animal's lair or habitation.",
+        "pron": "/dɛn/"
+    },
+    {
+        "word": "die",
+        "pos": "intransitive verb",
+        "def": "(of a person, animal, or plant) stop living.",
+        "pron": "/daɪ/"
+    },
+    {
+        "word": "dig",
+        "pos": "verb",
+        "def": "Break up and move earth with a tool or machine, or with hands, paws, snout, etc.",
+        "pron": "/dɪɡ/"
+    },
+    {
+        "word": "dim",
+        "pos": "verb",
+        "def": "Make or become less bright or distinct.",
+        "pron": "/dɪm/"
+    },
+    {
+        "word": "dip",
+        "pos": "verb",
+        "def": "Put or let something down quickly or briefly in or into (liquid)",
+        "pron": "/dɪp/"
+    },
+    {
+        "word": "dis",
+        "pos": "transitive verb",
+        "def": "Speak disrespectfully to or criticize.",
+        "pron": "/dɪs/"
+    },
+    {
+        "word": "div",
+        "pos": "abbreviation",
+        "def": "Divergence (in mathematical equations).",
+        "pron": "/dɪv/"
+    },
+    {
+        "word": "diy",
+        "pos": "noun",
+        "def": "The activity of decorating, building, and making repairs at home by oneself rather than employing a professional.",
+        "pron": "/ˌdi aɪ ˈwaɪ/"
+    },
+    {
+        "word": "doe",
+        "pos": "noun",
+        "def": "A female deer.",
+        "pron": "/doʊ/"
+    },
+    {
+        "word": "dog",
+        "pos": "transitive verb",
+        "def": "Follow (someone or their movements) closely and persistently.",
+        "pron": "/dɔɡ/"
+    },
+    {
+        "word": "dom",
+        "pos": "noun",
+        "def": "A title prefixed to the names of some Roman Catholic dignitaries and Benedictine and Carthusian monks.",
+        "pron": "/dɑm/"
+    },
+    {
+        "word": "don",
+        "pos": "noun",
+        "def": "A Spanish title prefixed to a male forename.A Spanish gentleman; a Spaniard.A high-ranking member of the Mafia.",
+        "pron": "/dɑn/"
+    },
+    {
+        "word": "dot",
+        "pos": "transitive verb",
+        "def": "Mark with a small spot or spots.",
+        "pron": "/dɑt/"
+    },
+    {
+        "word": "dry",
+        "pos": "intransitive verb",
+        "def": "Become dry.",
+        "pron": "/draɪ/"
+    },
+    {
+        "word": "due",
+        "pos": "adverb",
+        "def": "(with reference to a point of the compass) exactly; directly.",
+        "pron": "/d(j)u/"
+    },
+    {
+        "word": "duo",
+        "pos": "noun",
+        "def": "A pair of people or things, especially in music or entertainment.",
+        "pron": "/ˈd(j)uoʊ/"
+    },
+    {
+        "word": "ear",
+        "pos": "noun",
+        "def": "The organ of hearing and balance in humans and other vertebrates, especially the external part of this.",
+        "pron": "/ɪr/"
+    },
+    {
+        "word": "eat",
+        "pos": "transitive verb",
+        "def": "Put (food) into the mouth and chew and swallow it.",
+        "pron": "/it/"
+    },
+    {
+        "word": "eco",
+        "pos": "adjective",
+        "def": "Not harming the environment; eco-friendly.",
+        "pron": "/ˈikoʊ/"
+    },
+    {
+        "word": "end",
+        "pos": "verb",
+        "def": "Come or bring to a final point; finish.",
+        "pron": "/ɛnd/"
+    },
+    {
+        "word": "ent",
+        "pos": "abbreviation",
+        "def": "Ear, nose, and throat (as a department in a hospital).",
+        "pron": "/ˌiˌɛnˈti/"
+    },
+    {
+        "word": "era",
+        "pos": "noun",
+        "def": "A long and distinct period of history with a particular feature or characteristic.",
+        "pron": "/ˈɪrə/"
+    },
+    {
+        "word": "est",
+        "pos": "noun",
+        "def": "A system for self-improvement aimed at developing a person's potential through intensive group awareness and training sessions.",
+        "pron": "/ɛst/"
+    },
+    {
+        "word": "etc",
+        "pos": "adverb",
+        "def": "Used at the end of a list to indicate that further, similar items are included.",
+        "pron": "/ɛtˈsɛtərə/"
+    },
+    {
+        "word": "fan",
+        "pos": "verb",
+        "def": "Cool (especially a person or a part of the body) by waving something to create a current of air.",
+        "pron": "/fæn/"
+    },
+    {
+        "word": "faq",
+        "pos": "noun",
+        "def": "A list of questions and answers relating to a particular subject, especially one giving basic information for users of a website.",
+        "pron": "/ˌɛf ˌeɪ ˈkju/"
+    },
+    {
+        "word": "far",
+        "pos": "adverb",
+        "def": "At, to, or by a great distance (used to indicate the extent to which one thing is distant from another)",
+        "pron": "/fɑr/"
+    },
+    {
+        "word": "fat",
+        "pos": "verb",
+        "def": "Make or become fat.",
+        "pron": "/fæt/"
+    },
+    {
+        "word": "fax",
+        "pos": "transitive verb",
+        "def": "Send (a document) by fax.",
+        "pron": "/fæks/"
+    },
+    {
+        "word": "fed",
+        "pos": "noun",
+        "def": "A federal agent or official, especially a member of the FBI.",
+        "pron": "/fɛd/"
+    },
+    {
+        "word": "few",
+        "pos": "determiner & adjective",
+        "def": "A small number of.",
+        "pron": "/fju/"
+    },
+    {
+        "word": "fig",
+        "pos": "noun",
+        "def": "A soft pear-shaped fruit with sweet dark flesh and many small seeds, eaten fresh or dried.",
+        "pron": "/fɪɡ/"
+    },
+    {
+        "word": "fin",
+        "pos": "verb",
+        "def": "Swim underwater by means of flippers.",
+        "pron": "/fɪn/"
+    },
+    {
+        "word": "fit",
+        "pos": "transitive verb",
+        "def": "Be of the right shape and size for.",
+        "pron": "/fɪt/"
+    },
+    {
+        "word": "fix",
+        "pos": "transitive verb",
+        "def": "Fasten (something) securely in a particular place or position.",
+        "pron": "/fɪks/"
+    },
+    {
+        "word": "flu",
+        "pos": "noun",
+        "def": "Short for influenza",
+        "pron": "/flu/"
+    },
+    {
+        "word": "fly",
+        "pos": "intransitive verb",
+        "def": "(of a bird, bat, or insect) move through the air using wings.",
+        "pron": "/flaɪ/"
+    },
+    {
+        "word": "fog",
+        "pos": "verb",
+        "def": "(with reference to a glass surface) cover or become covered with steam.",
+        "pron": "/fɔɡ/"
+    },
+    {
+        "word": "fox",
+        "pos": "transitive verb",
+        "def": "Baffle or deceive (someone)",
+        "pron": "/fɑks/"
+    },
+    {
+        "word": "fun",
+        "pos": "verb",
+        "def": "Joke or tease.",
+        "pron": "/fən/"
+    },
+    {
+        "word": "fur",
+        "pos": "transitive verb",
+        "def": "Coat or clog with a deposit or thick layer.",
+        "pron": "/fər/"
+    },
+    {
+        "word": "gap",
+        "pos": "noun",
+        "def": "A break or hole in an object or between two objects.",
+        "pron": "/ɡæp/"
+    },
+    {
+        "word": "gas",
+        "pos": "transitive verb",
+        "def": "Kill or harm by exposure to poisonous gas.",
+        "pron": "/ɡæs/"
+    },
+    {
+        "word": "gay",
+        "pos": "noun",
+        "def": "A homosexual person (typically referring to a man)",
+        "pron": "/ɡeɪ/"
+    },
+    {
+        "word": "gdp",
+        "pos": "noun",
+        "def": "Short for gross domestic product",
+        "pron": "/ˌdʒi ˌdi ˈpi/"
+    },
+    {
+        "word": "gel",
+        "pos": "noun",
+        "def": "A a thick, clear, slightly sticky substance, especially one used in cosmetic or medicinal products.",
+        "pron": "/dʒɛl/"
+    },
+    {
+        "word": "gem",
+        "pos": "transitive verb",
+        "def": "Decorate with or as with gems.",
+        "pron": "/dʒɛm/"
+    },
+    {
+        "word": "gen",
+        "pos": "noun",
+        "def": "Information.",
+        "pron": "/dʒɛn/"
+    },
+    {
+        "word": "geo",
+        "pos": "noun",
+        "def": "A long, narrow, steep-sided cleft formed by erosion in coastal cliffs.",
+        "pron": "/ɡjəʊ/"
+    },
+    {
+        "word": "get",
+        "pos": "verb",
+        "def": "Come to have or hold (something); receive.",
+        "pron": "/ɡɛt/"
+    },
+    {
+        "word": "gif",
+        "pos": "noun",
+        "def": "A lossless format for image files that supports both animated and static images.",
+        "pron": "/ɡɪf/"
+    },
+    {
+        "word": "gnu",
+        "pos": "noun",
+        "def": "A large dark African antelope with a long head, a beard and mane, and a sloping back.",
+        "pron": "/n(j)u/"
+    },
+    {
+        "word": "got",
+        "pos": "verb",
+        "def": "Come to have (something); receive.",
+        "pron": "/ɡɛt/"
+    },
+    {
+        "word": "gun",
+        "pos": "transitive verb",
+        "def": "Cause (an engine) to race.",
+        "pron": "/ɡən/"
+    },
+    {
+        "word": "guy",
+        "pos": "transitive verb",
+        "def": "Make fun of; ridicule.",
+        "pron": "/ɡaɪ/"
+    },
+    {
+        "word": "gym",
+        "pos": "noun",
+        "def": "A gymnasium.",
+        "pron": "/dʒɪm/"
+    },
+    {
+        "word": "had",
+        "pos": "verb",
+        "def": "Possess, own, or hold.Possess (a quality, characteristic, or feature)Provide or indulge oneself with (something)Be made up of; comprise.Used to indicate a particular relationship.Be able to make use of (something available or at one's disposal)Have gained (a qualification)Possess as an intellectual attainment; know (a language or subject)",
+        "pron": "/hav/"
+    },
+    {
+        "word": "ham",
+        "pos": "noun",
+        "def": "Meat from the upper part of a pig's leg salted and dried or smoked.",
+        "pron": "/hæm/"
+    },
+    {
+        "word": "has",
+        "pos": "verb",
+        "def": "Possess, own, or hold.Possess (a quality, characteristic, or feature)Provide or indulge oneself with (something)Be made up of; comprise.Used to indicate a particular relationship.Be able to make use of (something available or at one's disposal)Have gained (a qualification)Possess as an intellectual attainment; know (a language or subject)",
+        "pron": "/hav/"
+    },
+    {
+        "word": "hat",
+        "pos": "noun",
+        "def": "A shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform.",
+        "pron": "/hæt/"
+    },
+    {
+        "word": "hay",
+        "pos": "noun",
+        "def": "Grass that has been mown and dried for use as fodder.",
+        "pron": "/heɪ/"
+    },
+    {
+        "word": "her",
+        "pos": "pronoun",
+        "def": "Used as the object of a verb or preposition to refer to a female person or animal previously mentioned or easily identified.",
+        "pron": "/hər/"
+    },
+    {
+        "word": "hey",
+        "pos": "exclamation",
+        "def": "Used to attract attention, to express surprise, interest, or annoyance, or to elicit agreement.",
+        "pron": "/heɪ/"
+    },
+    {
+        "word": "him",
+        "pos": "pronoun",
+        "def": "Used as the object of a verb or preposition to refer to a male person or animal previously mentioned or easily identified.",
+        "pron": "/hɪm/"
+    },
+    {
+        "word": "hip",
+        "pos": "noun",
+        "def": "A projection of the pelvis and upper thigh bone on each side of the body in human beings and quadrupeds.",
+        "pron": "/hɪp/"
+    },
+    {
+        "word": "his",
+        "pos": "possessive determiner",
+        "def": "Belonging to or associated with a male person or animal previously mentioned or easily identified.",
+        "pron": "/hɪz/"
+    },
+    {
+        "word": "hit",
+        "pos": "transitive verb",
+        "def": "Bring one's hand or a tool or weapon into contact with (someone or something) quickly and forcefully.",
+        "pron": "/hɪt/"
+    },
+    {
+        "word": "hop",
+        "pos": "intransitive verb",
+        "def": "(of a person) move by jumping on one foot.",
+        "pron": "/hɑp/"
+    },
+    {
+        "word": "hot",
+        "pos": "verb",
+        "def": "Become or make hot.",
+        "pron": "/hɑt/"
+    },
+    {
+        "word": "how",
+        "pos": "adverb",
+        "def": "In what way or manner; by what means.",
+        "pron": "/haʊ/"
+    },
+    {
+        "word": "hub",
+        "pos": "noun",
+        "def": "The central part of a wheel, rotating on or with the axle, and from which the spokes radiate.",
+        "pron": "/həb/"
+    },
+    {
+        "word": "ice",
+        "pos": "transitive verb",
+        "def": "Decorate (a cake) with icing.",
+        "pron": "/aɪs/"
+    },
+    {
+        "word": "ids",
+        "pos": "noun",
+        "def": "The part of the mind in which innate instinctive impulses and primary processes are manifest.",
+        "pron": "/ɪd/"
+    },
+    {
+        "word": "ink",
+        "pos": "verb",
+        "def": "Mark (words or a design) with ink.",
+        "pron": "/ɪŋk/"
+    },
+    {
+        "word": "ion",
+        "pos": "noun",
+        "def": "An atom or molecule with a net electric charge due to the loss or gain of one or more electrons.",
+        "pron": "/ˈaɪən/"
+    },
+    {
+        "word": "isa",
+        "pos": "noun",
+        "def": "(in the UK) an individual savings account, a program allowing individuals to hold cash, shares, and unit trusts free of tax on dividends, interest, and capital gains. In 1999 it replaced both personal equity plans (PEPs) and tax-exempt special savings accounts (TESSAs).",
+        "pron": "/ˈaɪsə/"
+    },
+    {
+        "word": "iso",
+        "pos": "proper noun",
+        "def": "International Organization for Standardization.",
+        "pron": "/ˌaiesˈoʊ/"
+    },
+    {
+        "word": "isp",
+        "pos": "noun",
+        "def": "Short for internet service provider",
+        "pron": "/ˌaɪˌɛsˈpi/"
+    },
+    {
+        "word": "ist",
+        "pos": "noun",
+        "def": "A follower of a distinctive practice, system, or philosophy, typically a political ideology or an artistic movement.",
+        "pron": "/ɪst/"
+    },
+    {
+        "word": "its",
+        "pos": "possessive determiner",
+        "def": "Belonging to or associated with a thing previously mentioned or easily identified.",
+        "pron": "/ɪts/"
+    },
+    {
+        "word": "jam",
+        "pos": "verb",
+        "def": "Squeeze or pack tightly into a specified space.",
+        "pron": "/dʒæm/"
+    },
+    {
+        "word": "jar",
+        "pos": "noun",
+        "def": "A wide-mouthed cylindrical container made of glass or pottery and typically having a lid, used especially for storing food.",
+        "pron": "/dʒɑr/"
+    },
+    {
+        "word": "jay",
+        "pos": "noun",
+        "def": "A bird of the crow family with boldly patterned plumage, typically having blue feathers in the wings or tail.",
+        "pron": "/dʒeɪ/"
+    },
+    {
+        "word": "jet",
+        "pos": "noun",
+        "def": "A rapid stream of liquid or gas forced out of a small opening.",
+        "pron": "/dʒɛt/"
+    },
+    {
+        "word": "job",
+        "pos": "verb",
+        "def": "Do casual or occasional work.",
+        "pron": "/dʒɑb/"
+    },
+    {
+        "word": "joe",
+        "pos": "noun",
+        "def": "An ordinary man.",
+        "pron": "/dʒoʊ/"
+    },
+    {
+        "word": "joy",
+        "pos": "noun",
+        "def": "A feeling of great pleasure and happiness.",
+        "pron": "/dʒɔɪ/"
+    },
+    {
+        "word": "jun",
+        "pos": "noun",
+        "def": "A monetary unit of North Korea, equal to one hundredth of a won.",
+        "pron": "/tʃən/"
+    },
+    {
+        "word": "kai",
+        "pos": "noun",
+        "def": "Food.",
+        "pron": "/kʌɪ/"
+    },
+    {
+        "word": "kay",
+        "pos": "exclamation",
+        "def": "Nonstandard spelling of OK, representing a pronunciation",
+        "pron": "/keɪ/"
+    },
+    {
+        "word": "ken",
+        "pos": "transitive verb",
+        "def": "Know.",
+        "pron": "/kɛn/"
+    },
+    {
+        "word": "key",
+        "pos": "transitive verb",
+        "def": "Enter or operate on (data) by means of a computer keyboard or telephone keypad.",
+        "pron": "/ki/"
+    },
+    {
+        "word": "kid",
+        "pos": "noun",
+        "def": "A child or young person.",
+        "pron": "/kɪd/"
+    },
+    {
+        "word": "kit",
+        "pos": "transitive verb",
+        "def": "Provide someone or something with the appropriate clothing or equipment.",
+        "pron": "/kɪt/"
+    },
+    {
+        "word": "lab",
+        "pos": "noun",
+        "def": "A laboratory.",
+        "pron": "/læb/"
+    },
+    {
+        "word": "lap",
+        "pos": "noun",
+        "def": "The flat area between the waist and knees of a seated person.",
+        "pron": "/læp/"
+    },
+    {
+        "word": "lat",
+        "pos": "noun",
+        "def": "The basic monetary unit of Latvia, equal to 100 santims (replaced by the euro in 2014).",
+        "pron": "/læt/"
+    },
+    {
+        "word": "law",
+        "pos": "noun",
+        "def": "The system of rules which a particular country or community recognizes as regulating the actions of its members and which it may enforce by the imposition of penalties.",
+        "pron": "/lɔ/"
+    },
+    {
+        "word": "lay",
+        "pos": "verb",
+        "def": "Put down, especially gently or carefully.",
+        "pron": "/leɪ/"
+    },
+    {
+        "word": "led",
+        "pos": "noun",
+        "def": "A light-emitting diode (a semiconductor diode which glows when a voltage is applied)",
+        "pron": "/ˌɛl ˌi ˈdi/"
+    },
+    {
+        "word": "leg",
+        "pos": "verb",
+        "def": "Travel by foot; walk.",
+        "pron": "/lɛɡ/"
+    },
+    {
+        "word": "les",
+        "pos": "noun",
+        "def": "A lesbian.",
+        "pron": "/lɛz/"
+    },
+    {
+        "word": "let",
+        "pos": "verb",
+        "def": "Not prevent or forbid; allow.",
+        "pron": "/lɛt/"
+    },
+    {
+        "word": "leu",
+        "pos": "noun",
+        "def": "The basic monetary unit of Romania, equal to 100 bani.",
+        "pron": "/ˈleɪ(j)u/"
+    },
+    {
+        "word": "lib",
+        "pos": "noun",
+        "def": "A supporter of policies that are socially progressive and promote social welfare; a liberal.",
+        "pron": "/lɪb/"
+    },
+    {
+        "word": "lid",
+        "pos": "noun",
+        "def": "A removable or hinged cover for the top of a container.",
+        "pron": "/lɪd/"
+    },
+    {
+        "word": "lie",
+        "pos": "verb",
+        "def": "(of a person or animal) be in or assume a horizontal or resting position on a supporting surface.",
+        "pron": "/laɪ/"
+    },
+    {
+        "word": "lip",
+        "pos": "transitive verb",
+        "def": "(of water) lap against.",
+        "pron": "/lɪp/"
+    },
+    {
+        "word": "lit",
+        "pos": "adjective",
+        "def": "Provided with light or lighting; illuminated.",
+        "pron": "/lɪt/"
+    },
+    {
+        "word": "log",
+        "pos": "transitive verb",
+        "def": "Enter (an incident or fact) in the log of a ship or aircraft or in another systematic record.",
+        "pron": "/lɔɡ/"
+    },
+    {
+        "word": "lot",
+        "pos": "noun",
+        "def": "A particular group, collection, or set of people or things.",
+        "pron": "/lɑt/"
+    },
+    {
+        "word": "low",
+        "pos": "adverb",
+        "def": "In or into a low position or state.",
+        "pron": "/loʊ/"
+    },
+    {
+        "word": "mac",
+        "pos": "noun",
+        "def": "Macaroni.",
+        "pron": "/mæk/"
+    },
+    {
+        "word": "mad",
+        "pos": "adverb",
+        "def": "Very; extremely.",
+        "pron": "/mæd/"
+    },
+    {
+        "word": "mag",
+        "pos": "noun",
+        "def": "A magazine (periodical)",
+        "pron": "/mæɡ/"
+    },
+    {
+        "word": "man",
+        "pos": "transitive verb",
+        "def": "(of personnel) work at, run, or operate (a place or piece of equipment) or defend (a fortification)",
+        "pron": "/mæn/"
+    },
+    {
+        "word": "map",
+        "pos": "transitive verb",
+        "def": "Represent (an area) on a map; make a map of.",
+        "pron": "/mæp/"
+    },
+    {
+        "word": "mar",
+        "pos": "transitive verb",
+        "def": "Impair the appearance of; disfigure.",
+        "pron": "/mɑr/"
+    },
+    {
+        "word": "mas",
+        "pos": "noun",
+        "def": "Carnival celebrations.",
+        "pron": "/mɑːs/"
+    },
+    {
+        "word": "mat",
+        "pos": "transitive verb",
+        "def": "Tangle (something, especially hair) in a thick mass.",
+        "pron": "/mæt/"
+    },
+    {
+        "word": "max",
+        "pos": "adverb",
+        "def": "At the most.",
+        "pron": "/mæks/"
+    },
+    {
+        "word": "may",
+        "pos": "modal verb",
+        "def": "Expressing possibility.",
+        "pron": "/meɪ/"
+    },
+    {
+        "word": "med",
+        "pos": "adjective",
+        "def": "Medical.",
+        "pron": "/mɛd/"
+    },
+    {
+        "word": "men",
+        "pos": "verb",
+        "def": "(of personnel) work at, run, or operate (a place or piece of equipment) or defend (a fortification)",
+        "pron": "/man/"
+    },
+    {
+        "word": "met",
+        "pos": "abbreviation",
+        "def": "The Metropolitan Opera House in New York City.",
+        "pron": "/mɛt/"
+    },
+    {
+        "word": "mia",
+        "pos": "noun",
+        "def": "A member of the armed forces who is missing in action.",
+        "pron": "/ˈˌɛm ˈˌaɪ ˈeɪ/"
+    },
+    {
+        "word": "mic",
+        "pos": "noun",
+        "def": "A microphone.",
+        "pron": "/maɪk/"
+    },
+    {
+        "word": "mid",
+        "pos": "adjective",
+        "def": "Of or in the middle part or position of a range.",
+        "pron": "/mɪd/"
+    },
+    {
+        "word": "mix",
+        "pos": "transitive verb",
+        "def": "Combine or put together to form one substance or mass.",
+        "pron": "/mɪks/"
+    },
+    {
+        "word": "mod",
+        "pos": "noun",
+        "def": "(especially in the early 1960s) a young person of a subculture characterized by stylish dress, the riding of motor scooters, and a liking for soul music.",
+        "pron": "/mɑd/"
+    },
+    {
+        "word": "mon",
+        "pos": "noun",
+        "def": "A member of a people now inhabiting parts of southeastern Burma (Myanmar) and western Thailand but having their ancient capital at Pegu in the south of Burma.",
+        "pron": "/moʊn/"
+    },
+    {
+        "word": "mrs",
+        "pos": "noun",
+        "def": "The title used before a surname or full name to address or refer to a married woman without a higher or honorific or professional title.",
+        "pron": "/ˈmɪsɪz/"
+    },
+    {
+        "word": "mud",
+        "pos": "noun",
+        "def": "Soft, sticky matter resulting from the mixing of earth and water.",
+        "pron": "/məd/"
+    },
+    {
+        "word": "mug",
+        "pos": "verb",
+        "def": "Attack and rob (someone) in a public place.",
+        "pron": "/məɡ/"
+    },
+    {
+        "word": "new",
+        "pos": "adverb",
+        "def": "Newly; recently.",
+        "pron": "/n(j)u/"
+    },
+    {
+        "word": "nil",
+        "pos": "noun",
+        "def": "Zero, especially as a score in certain games.",
+        "pron": "/nɪl/"
+    },
+    {
+        "word": "nor",
+        "pos": "adverb",
+        "def": "Literary term for neither",
+        "pron": "/nɔr/"
+    },
+    {
+        "word": "not",
+        "pos": "adverb",
+        "def": "Used with an auxiliary verb or “be” to form the negative.Used in some constructions with other verbs.",
+        "pron": "/nɑt/"
+    },
+    {
+        "word": "now",
+        "pos": "adverb",
+        "def": "At the present time or moment.",
+        "pron": "/naʊ/"
+    },
+    {
+        "word": "nut",
+        "pos": "verb",
+        "def": "Gather nuts.",
+        "pron": "/nət/"
+    },
+    {
+        "word": "oak",
+        "pos": "noun",
+        "def": "A tree that bears acorns as fruit, and typically has lobed deciduous leaves. Oaks are common in many north temperate forests and are an important source of hard and durable wood used chiefly in construction, furniture, and (formerly) shipbuilding.",
+        "pron": "/oʊk/"
+    },
+    {
+        "word": "oil",
+        "pos": "transitive verb",
+        "def": "Lubricate, coat, or impregnate with oil.",
+        "pron": "/ɔɪl/"
+    },
+    {
+        "word": "old",
+        "pos": "adjective",
+        "def": "Having lived for a long time; no longer young.",
+        "pron": "/oʊld/"
+    },
+    {
+        "word": "one",
+        "pos": "pronoun",
+        "def": "Referring to a person or thing previously mentioned or easily identified.",
+        "pron": "/wən/"
+    },
+    {
+        "word": "opt",
+        "pos": "intransitive verb",
+        "def": "Make a choice from a range of possibilities.",
+        "pron": "/ɑpt/"
+    },
+    {
+        "word": "our",
+        "pos": "possessive determiner",
+        "def": "Belonging to or associated with the speaker and one or more other people previously mentioned or easily identified.",
+        "pron": "/ˈaʊ(ə)r/"
+    },
+    {
+        "word": "out",
+        "pos": "preposition",
+        "def": "Through to the outside.",
+        "pron": "/aʊt/"
+    },
+    {
+        "word": "own",
+        "pos": "verb",
+        "def": "Have (something) as one's own; possess.",
+        "pron": "/oʊn/"
+    },
+    {
+        "word": "pac",
+        "pos": "noun",
+        "def": "Short for political action committee",
+        "pron": "/pæk/"
+    },
+    {
+        "word": "pad",
+        "pos": "transitive verb",
+        "def": "Fill or cover (something) with soft material in order to protect it or its contents, make it more comfortable, or give it a particular shape.",
+        "pron": "/pæd/"
+    },
+    {
+        "word": "pal",
+        "pos": "noun",
+        "def": "A friend.",
+        "pron": "/pæl/"
+    },
+    {
+        "word": "pan",
+        "pos": "transitive verb",
+        "def": "Criticize (someone or something) severely.",
+        "pron": "/pæn/"
+    },
+    {
+        "word": "par",
+        "pos": "transitive verb",
+        "def": "Play (a hole) in par.",
+        "pron": "/pɑr/"
+    },
+    {
+        "word": "pas",
+        "pos": "noun",
+        "def": "A step in dancing, especially in classical ballet.",
+        "pron": "/pɑ/"
+    },
+    {
+        "word": "pat",
+        "pos": "transitive verb",
+        "def": "Touch quickly and gently with the flat of the hand.",
+        "pron": "/pæt/"
+    },
+    {
+        "word": "pay",
+        "pos": "verb",
+        "def": "Give (someone) money that is due for work done, goods received, or a debt incurred.",
+        "pron": "/peɪ/"
+    },
+    {
+        "word": "pda",
+        "pos": "noun",
+        "def": "A palmtop computer that functions as a personal organizer but also provides email and internet access.",
+        "pron": "/ˌpi ˌdi ˈeɪ/"
+    },
+    {
+        "word": "pdf",
+        "pos": "noun",
+        "def": "A file format that provides an electronic image of text or text and graphics that looks like a printed document and can be viewed, printed, and electronically transmitted.",
+        "pron": "/ˌpiˌdiˈɛf/"
+    },
+    {
+        "word": "pen",
+        "pos": "transitive verb",
+        "def": "Write or compose.",
+        "pron": "/pɛn/"
+    },
+    {
+        "word": "per",
+        "pos": "preposition",
+        "def": "For each (used with units to express a rate)",
+        "pron": "/pər/"
+    },
+    {
+        "word": "pet",
+        "pos": "transitive verb",
+        "def": "Stroke or pat (an animal) affectionately.",
+        "pron": "/pɛt/"
+    },
+    {
+        "word": "phi",
+        "pos": "noun",
+        "def": "The twenty-first letter of the Greek alphabet (Φ, φ), transliterated as ‘ph.’.",
+        "pron": "/faɪ/"
+    },
+    {
+        "word": "pic",
+        "pos": "noun",
+        "def": "A photograph or movie; a picture.",
+        "pron": "/pɪk/"
+    },
+    {
+        "word": "pie",
+        "pos": "noun",
+        "def": "A baked dish of fruit, or meat and vegetables, typically with a top and base of pastry.",
+        "pron": "/paɪ/"
+    },
+    {
+        "word": "pig",
+        "pos": "verb",
+        "def": "Gorge oneself with food.",
+        "pron": "/pɪɡ/"
+    },
+    {
+        "word": "pin",
+        "pos": "verb",
+        "def": "Attach or fasten with a pin or pins in a specified position.",
+        "pron": "/pɪn/"
+    },
+    {
+        "word": "pit",
+        "pos": "transitive verb",
+        "def": "Set someone or something in conflict or competition with.",
+        "pron": "/pɪt/"
+    },
+    {
+        "word": "pix",
+        "pos": "plural noun",
+        "def": "Pictures, especially photographs.",
+        "pron": "/pɪks/"
+    },
+    {
+        "word": "pod",
+        "pos": "verb",
+        "def": "(of a plant) bear or form pods.",
+        "pron": "/pɑd/"
+    },
+    {
+        "word": "pot",
+        "pos": "transitive verb",
+        "def": "Plant in a flowerpot.",
+        "pron": "/pɑt/"
+    },
+    {
+        "word": "pre",
+        "pos": "preposition",
+        "def": "Previous to; before.",
+        "pron": "/prɪ/"
+    },
+    {
+        "word": "pro",
+        "pos": "noun",
+        "def": "A professional, especially in sports.",
+        "pron": "/proʊ/"
+    },
+    {
+        "word": "psi",
+        "pos": "noun",
+        "def": "The twenty-third letter of the Greek alphabet (Ψ, ψ), transliterated as ‘ps.’.",
+        "pron": "/(p)saɪ/"
+    },
+    {
+        "word": "pub",
+        "pos": "noun",
+        "def": "A tavern or bar.",
+        "pron": "/pəb/"
+    },
+    {
+        "word": "put",
+        "pos": "verb",
+        "def": "Move to or place in a particular position.",
+        "pron": "/pʊt/"
+    },
+    {
+        "word": "ram",
+        "pos": "verb",
+        "def": "Roughly force (something) into place.",
+        "pron": "/ræm/"
+    },
+    {
+        "word": "ran",
+        "pos": "verb",
+        "def": "Move at a speed faster than a walk, never having both or all the feet on the ground at the same time.",
+        "pron": "/rʌn/"
+    },
+    {
+        "word": "rap",
+        "pos": "verb",
+        "def": "Strike (a hard surface) with a series of rapid audible blows, especially in order to attract attention.",
+        "pron": "/ræp/"
+    },
+    {
+        "word": "rat",
+        "pos": "noun",
+        "def": "A rodent that resembles a large mouse, typically having a pointed snout and a long, sparsely haired tail. Some kinds have become cosmopolitan and are sometimes responsible for transmitting diseases.",
+        "pron": "/ræt/"
+    },
+    {
+        "word": "raw",
+        "pos": "adjective",
+        "def": "(of food) uncooked.",
+        "pron": "/rɔ/"
+    },
+    {
+        "word": "ray",
+        "pos": "verb",
+        "def": "Spread from or as if from a central point.",
+        "pron": "/reɪ/"
+    },
+    {
+        "word": "rec",
+        "pos": "noun",
+        "def": "Recreation.",
+        "pron": "/rɛk/"
+    },
+    {
+        "word": "red",
+        "pos": "noun",
+        "def": "Red color or pigment.",
+        "pron": "/rɛd/"
+    },
+    {
+        "word": "ref",
+        "pos": "transitive verb",
+        "def": "Act as referee in (a game or match).",
+        "pron": "/rɛf/"
+    },
+    {
+        "word": "reg",
+        "pos": "noun",
+        "def": "A vehicle's registration mark, especially the letter denoting the year of manufacture.",
+        "pron": "/rɛdʒ/"
+    },
+    {
+        "word": "rep",
+        "pos": "noun",
+        "def": "A representative.",
+        "pron": "/rɛp/"
+    },
+    {
+        "word": "rev",
+        "pos": "transitive verb",
+        "def": "Increase the running speed of (an engine) or the engine speed of (a vehicle) by pressing the accelerator, especially while the clutch is disengaged.",
+        "pron": "/rɛv/"
+    },
+    {
+        "word": "rid",
+        "pos": "transitive verb",
+        "def": "Make someone or something free of (a troublesome or unwanted person or thing)",
+        "pron": "/rɪd/"
+    },
+    {
+        "word": "rim",
+        "pos": "transitive verb",
+        "def": "Form or act as an outer edge or rim for.",
+        "pron": "/rɪm/"
+    },
+    {
+        "word": "rip",
+        "pos": "verb",
+        "def": "Tear or pull (something) quickly or forcibly away from something or someone.",
+        "pron": "/rɪp/"
+    },
+    {
+        "word": "rna",
+        "pos": "noun",
+        "def": "Ribonucleic acid, a nucleic acid present in all living cells. Its principal role is to act as a messenger carrying instructions from DNA for controlling the synthesis of proteins, although in some viruses RNA rather than DNA carries the genetic information.",
+        "pron": "/ˌɑ ˌrɛn ˈeɪ/"
+    },
+    {
+        "word": "rob",
+        "pos": "transitive verb",
+        "def": "Take property unlawfully from (a person or place) by force or threat of force.",
+        "pron": "/rɑb/"
+    },
+    {
+        "word": "rod",
+        "pos": "noun",
+        "def": "A thin straight bar, especially of wood or metal.",
+        "pron": "/rɑd/"
+    },
+    {
+        "word": "row",
+        "pos": "noun",
+        "def": "A number of people or things in a more or less straight line.",
+        "pron": "/roʊ/"
+    },
+    {
+        "word": "rug",
+        "pos": "noun",
+        "def": "A floor covering of thick woven material or animal skin, typically not extending over the entire floor.",
+        "pron": "/rəɡ/"
+    },
+    {
+        "word": "run",
+        "pos": "verb",
+        "def": "Move at a speed faster than a walk, never having both or all the feet on the ground at the same time.",
+        "pron": "/rən/"
+    },
+    {
+        "word": "sad",
+        "pos": "adjective",
+        "def": "Feeling or showing sorrow; unhappy.",
+        "pron": "/sæd/"
+    },
+    {
+        "word": "san",
+        "pos": "noun",
+        "def": "A member of the aboriginal peoples of southern Africa commonly called Bushmen.",
+        "pron": "/sɑn/"
+    },
+    {
+        "word": "sap",
+        "pos": "transitive verb",
+        "def": "Gradually weaken or destroy (a person's strength or power)",
+        "pron": "/sæp/"
+    },
+    {
+        "word": "saw",
+        "pos": "verb",
+        "def": "Cut (something) using a saw.",
+        "pron": "/sɔ/"
+    },
+    {
+        "word": "say",
+        "pos": "verb",
+        "def": "Utter words so as to convey information, an opinion, a feeling or intention, or an instruction.",
+        "pron": "/seɪ/"
+    },
+    {
+        "word": "sea",
+        "pos": "noun",
+        "def": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses.",
+        "pron": "/si/"
+    },
+    {
+        "word": "sen",
+        "pos": "noun",
+        "def": "A monetary unit of Brunei, Cambodia, Indonesia, and Malaysia, equal to one hundredth of a dollar in Brunei, one hundredth of a riel in Cambodia, one hundredth of a rupiah in Indonesia, and one hundredth of a ringgit in Malaysia.",
+        "pron": "/sɛn/"
+    },
+    {
+        "word": "set",
+        "pos": "verb",
+        "def": "Put, lay, or stand (something) in a specified place or position.",
+        "pron": "/sɛt/"
+    },
+    {
+        "word": "she",
+        "pos": "pronoun",
+        "def": "Used to refer to a woman, girl, or female animal previously mentioned or easily identified.",
+        "pron": "/ʃi/"
+    },
+    {
+        "word": "sic",
+        "pos": "adverb",
+        "def": "Used in brackets after a copied or quoted word that appears odd or erroneous to show that the word is quoted exactly as it stands in the original, as in a story must hold a child's interest and “enrich his [sic] life.”.",
+        "pron": "/sɪk/"
+    },
+    {
+        "word": "sig",
+        "pos": "noun",
+        "def": "A short personalized message at the end of an email.",
+        "pron": "/sɪɡ/"
+    },
+    {
+        "word": "sim",
+        "pos": "noun",
+        "def": "A video game that simulates an activity such as flying an aircraft or playing a sport.",
+        "pron": "/sɪm/"
+    },
+    {
+        "word": "sin",
+        "pos": "noun",
+        "def": "An immoral act considered to be a transgression against divine law.",
+        "pron": "/sɪn/"
+    },
+    {
+        "word": "sip",
+        "pos": "transitive verb",
+        "def": "Drink (something) by taking small mouthfuls.",
+        "pron": "/sɪp/"
+    },
+    {
+        "word": "sir",
+        "pos": "noun",
+        "def": "Used as a polite or respectful way of addressing a man, especially one in a position of authority.",
+        "pron": "/sər/"
+    },
+    {
+        "word": "sit",
+        "pos": "verb",
+        "def": "Adopt or be in a position in which one's weight is supported by one's buttocks rather than one's feet and one's back is upright.",
+        "pron": "/sɪt/"
+    },
+    {
+        "word": "six",
+        "pos": "cardinal number",
+        "def": "Equivalent to the product of two and three; one more than five, or four less than ten; 6.A group or unit of six people or things.Six years old.Six o'clock.A size of garment or other merchandise denoted by six.A playing card or domino with six pips.",
+        "pron": "/sɪks/"
+    },
+    {
+        "word": "ski",
+        "pos": "noun",
+        "def": "Each of a pair of long narrow pieces of hard flexible material, typically pointed and turned up at the front, fastened under the feet for gliding over snow.",
+        "pron": "/ski/"
+    },
+    {
+        "word": "sky",
+        "pos": "transitive verb",
+        "def": "Hit (a ball) high into the air.",
+        "pron": "/skaɪ/"
+    },
+    {
+        "word": "soc",
+        "pos": "noun",
+        "def": "(especially among academics) sociology.",
+        "pron": "/soʊʃ/"
+    },
+    {
+        "word": "sol",
+        "pos": "noun",
+        "def": "(in solmization) the fifth note of a major scale.",
+        "pron": "/soʊl/"
+    },
+    {
+        "word": "son",
+        "pos": "noun",
+        "def": "A boy or man in relation to either or both of his parents.",
+        "pron": "/sən/"
+    },
+    {
+        "word": "spa",
+        "pos": "noun",
+        "def": "A mineral spring considered to have health-giving properties.",
+        "pron": "/spɑ/"
+    },
+    {
+        "word": "spy",
+        "pos": "noun",
+        "def": "A person who secretly collects and reports information on the activities, movements, and plans of an enemy or competitor.",
+        "pron": "/spaɪ/"
+    },
+    {
+        "word": "sri",
+        "pos": "noun",
+        "def": "A title of respect used before the name of a man, a god, or a sacred book.",
+        "pron": "/sri/"
+    },
+    {
+        "word": "std",
+        "pos": "abbreviation",
+        "def": "Doctor of Sacred Theology.",
+        "pron": "/ˌɛs ˌti ˈdi/"
+    },
+    {
+        "word": "sub",
+        "pos": "noun",
+        "def": "A submarine.",
+        "pron": "/səb/"
+    },
+    {
+        "word": "sue",
+        "pos": "verb",
+        "def": "Institute legal proceedings against (a person or institution), typically for redress.",
+        "pron": "/su/"
+    },
+    {
+        "word": "sum",
+        "pos": "transitive verb",
+        "def": "Find the sum of (two or more amounts)",
+        "pron": "/səm/"
+    },
+    {
+        "word": "sun",
+        "pos": "verb",
+        "def": "Sit or lie in the sun.",
+        "pron": "/sən/"
+    },
+    {
+        "word": "tab",
+        "pos": "transitive verb",
+        "def": "Mark or identify with a projecting piece of material.",
+        "pron": "/tæb/"
+    },
+    {
+        "word": "tag",
+        "pos": "transitive verb",
+        "def": "Attach a label to.",
+        "pron": "/tæɡ/"
+    },
+    {
+        "word": "tan",
+        "pos": "verb",
+        "def": "(of a person or their skin) become brown or darkened after exposure to the sun.",
+        "pron": "/tæn/"
+    },
+    {
+        "word": "tap",
+        "pos": "transitive verb",
+        "def": "Draw liquid through the tap or spout of (a cask, barrel, or other container)",
+        "pron": "/tæp/"
+    },
+    {
+        "word": "tar",
+        "pos": "transitive verb",
+        "def": "Cover (something) with tar.",
+        "pron": "/tɑr/"
+    },
+    {
+        "word": "tax",
+        "pos": "transitive verb",
+        "def": "Impose a tax on (someone or something)",
+        "pron": "/tæks/"
+    },
+    {
+        "word": "tea",
+        "pos": "noun",
+        "def": "A hot drink made by infusing the dried crushed leaves of the tea plant in boiling water.",
+        "pron": "/ti/"
+    },
+    {
+        "word": "ted",
+        "pos": "transitive verb",
+        "def": "Turn over and spread out (grass, hay, or straw) to dry or for bedding.",
+        "pron": "/tɛd/"
+    },
+    {
+        "word": "ten",
+        "pos": "cardinal number",
+        "def": "Equivalent to the product of five and two; one more than nine; 10.A group or unit of ten people or things.Ten years old.Ten o'clock.A size of garment or other merchandise denoted by ten.A ten-dollar bill.A playing card with ten pips.Used to indicate that someone has done something well; the highest mark on a scale of one to ten.",
+        "pron": "/tɛn/"
+    },
+    {
+        "word": "the",
+        "pos": "determiner",
+        "def": "Denoting one or more people or things already mentioned or assumed to be common knowledge.",
+        "pron": "/ði/"
+    },
+    {
+        "word": "tie",
+        "pos": "verb",
+        "def": "Attach or fasten (someone or something) with string or similar cord.",
+        "pron": "/taɪ/"
+    },
+    {
+        "word": "tin",
+        "pos": "transitive verb",
+        "def": "Cover with a thin layer of tin.",
+        "pron": "/tɪn/"
+    },
+    {
+        "word": "tip",
+        "pos": "transitive verb",
+        "def": "Attach to or cover the end or extremity of.",
+        "pron": "/tɪp/"
+    },
+    {
+        "word": "toe",
+        "pos": "verb",
+        "def": "Push, touch, or kick (something) with one's toe.",
+        "pron": "/toʊ/"
+    },
+    {
+        "word": "tom",
+        "pos": "noun",
+        "def": "The male of various animals, especially a turkey or domestic cat.",
+        "pron": "/tɑm/"
+    },
+    {
+        "word": "ton",
+        "pos": "noun",
+        "def": "A unit of weight equal to 2,000 pounds avoirdupois (907.19 kg).A unit of weight equal to 2,240 pounds avoirdupois (1016.05 kg).A unit of measurement of a ship's weight representing the weight of water it displaces, equal to 2,240 pounds or 35 cubic feet (0.99 cu m).A unit of weight or volume of sea cargo, equal to a metric ton (1,000 kg) or 40 cubic feet.",
+        "pron": "/tən/"
+    },
+    {
+        "word": "top",
+        "pos": "noun",
+        "def": "The highest or uppermost point, part, or surface of something.",
+        "pron": "/tɑp/"
+    },
+    {
+        "word": "toy",
+        "pos": "noun",
+        "def": "An object for a child to play with, typically a model or miniature replica of something.",
+        "pron": "/tɔɪ/"
+    },
+    {
+        "word": "try",
+        "pos": "verb",
+        "def": "Make an attempt or effort to do something.",
+        "pron": "/traɪ/"
+    },
+    {
+        "word": "tub",
+        "pos": "transitive verb",
+        "def": "Plant in a tub.",
+        "pron": "/təb/"
+    },
+    {
+        "word": "two",
+        "pos": "cardinal number",
+        "def": "Equivalent to the sum of one and one; one less than three; 2.A group or unit of two people or things.Two years old.Two o'clock.A size of garment or other merchandise denoted by two.A playing card or domino with two pips.",
+        "pron": "/tu/"
+    },
+    {
+        "word": "uni",
+        "pos": "noun",
+        "def": "University.",
+        "pron": "/ˈjuːni/"
+    },
+    {
+        "word": "url",
+        "pos": "noun",
+        "def": "The address of a web page.",
+        "pron": "/ˌju ˌɑr ˈɛl/"
+    },
+    {
+        "word": "use",
+        "pos": "verb",
+        "def": "Take, hold, or deploy (something) as a means of accomplishing a purpose or achieving a result; employ.",
+        "pron": "/juz/"
+    },
+    {
+        "word": "van",
+        "pos": "noun",
+        "def": "A medium-sized motor vehicle with a boxy shape and high roof, used for transporting goods or passengers.",
+        "pron": "/væn/"
+    },
+    {
+        "word": "vat",
+        "pos": "transitive verb",
+        "def": "Place or treat in a vat.",
+        "pron": "/væt/"
+    },
+    {
+        "word": "vcr",
+        "pos": "noun",
+        "def": "A videocassette recorder.",
+        "pron": "/ˌvi ˌsi ˈɑr/"
+    },
+    {
+        "word": "via",
+        "pos": "preposition",
+        "def": "Traveling through (a place) en route to a destination.",
+        "pron": "/ˈvaɪə/"
+    },
+    {
+        "word": "vip",
+        "pos": "noun",
+        "def": "A very important person.",
+        "pron": "/ˌviˌaɪˈpi/"
+    },
+    {
+        "word": "wan",
+        "pos": "adjective",
+        "def": "(of a person's complexion or appearance) pale and giving the impression of illness or exhaustion.",
+        "pron": "/wɑn/"
+    },
+    {
+        "word": "war",
+        "pos": "noun",
+        "def": "A state of armed conflict between different nations or states or different groups within a nation or state.",
+        "pron": "/wɔr/"
+    },
+    {
+        "word": "wax",
+        "pos": "transitive verb",
+        "def": "Cover or treat (something) with wax or a similar substance, typically to polish or protect it.",
+        "pron": "/wæks/"
+    },
+    {
+        "word": "way",
+        "pos": "adverb",
+        "def": "At or to a considerable distance or extent; far (used before an adverb or preposition for emphasis)",
+        "pron": "/weɪ/"
+    },
+    {
+        "word": "web",
+        "pos": "transitive verb",
+        "def": "Cover with or as though with a web.",
+        "pron": "/wɛb/"
+    },
+    {
+        "word": "wed",
+        "pos": "transitive verb",
+        "def": "Get married to.",
+        "pron": "/wɛd/"
+    },
+    {
+        "word": "wet",
+        "pos": "transitive verb",
+        "def": "Cover or touch with liquid; moisten.",
+        "pron": "/wɛt/"
+    },
+    {
+        "word": "who",
+        "pos": "pronoun",
+        "def": "What or which person or people.",
+        "pron": "/hu/"
+    },
+    {
+        "word": "why",
+        "pos": "noun",
+        "def": "A reason or explanation.",
+        "pron": "/(h)waɪ/"
+    },
+    {
+        "word": "win",
+        "pos": "transitive verb",
+        "def": "Be successful or victorious in (a contest or conflict)",
+        "pron": "/wɪn/"
+    },
+    {
+        "word": "wit",
+        "pos": "noun",
+        "def": "Mental sharpness and inventiveness; keen intelligence.",
+        "pron": "/wɪt/"
+    },
+    {
+        "word": "won",
+        "pos": "verb",
+        "def": "Past and past participle of win",
+        "pron": "/wən/"
+    },
+    {
+        "word": "xml",
+        "pos": "noun",
+        "def": "A metalanguage which allows users to define their own customized markup languages, especially in order to display documents on the internet.",
+        "pron": "/ˌɛksɛmˈɛl/"
+    },
+    {
+        "word": "yea",
+        "pos": "adverb",
+        "def": "Yes.",
+        "pron": "/jeɪ/"
+    },
+    {
+        "word": "yen",
+        "pos": "noun",
+        "def": "The basic monetary unit of Japan.",
+        "pron": "/jɛn/"
+    },
+    {
+        "word": "yes",
+        "pos": "noun",
+        "def": "An affirmative answer or decision, especially in voting.",
+        "pron": "/jɛs/"
+    },
+    {
+        "word": "yet",
+        "pos": "adverb",
+        "def": "Up until the present or a specified or implied time; by now or then.",
+        "pron": "/jɛt/"
+    },
+    {
+        "word": "you",
+        "pos": "pronoun",
+        "def": "Used to refer to the person or people that the speaker is addressing.",
+        "pron": "/ju/"
+    },
+    {
+        "word": "zen",
+        "pos": "noun",
+        "def": "A Japanese school of Mahayana Buddhism emphasizing the value of meditation and intuition.",
+        "pron": "/zɛn/"
+    },
+    {
+        "word": "zip",
+        "pos": "verb",
+        "def": "Fasten with a zipper.",
+        "pron": "/zɪp/"
+    }
+]

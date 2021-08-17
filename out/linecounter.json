@@ -1,0 +1,2975 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\zmbar\\Unity Projects\\WordCube Alpha",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-08-08 01:15:35",
+            "filesum": 222,
+            "codesum": 91469,
+            "commentsum": 1235,
+            "blanksum": 8865,
+            "statistics": {
+                ".sln": {
+                    "code": 40,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".csproj": {
+                    "code": 3055,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cs": {
+                    "code": 4195,
+                    "comment": 414,
+                    "blank": 602
+                },
+                ".txt": {
+                    "code": 2317,
+                    "comment": 2,
+                    "blank": 228
+                },
+                ".json": {
+                    "code": 9924,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".log": {
+                    "code": 228,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".plist": {
+                    "code": 55,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xml": {
+                    "code": 35039,
+                    "comment": 60,
+                    "blank": 192
+                },
+                ".XML": {
+                    "code": 950,
+                    "comment": 2,
+                    "blank": 0
+                },
+                ".lock": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".nib": {
+                    "code": 498,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 71,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ini": {
+                    "code": 24726,
+                    "comment": 408,
+                    "blank": 6340
+                },
+                ".config": {
+                    "code": 2137,
+                    "comment": 0,
+                    "blank": 102
+                },
+                ".map": {
+                    "code": 172,
+                    "comment": 0,
+                    "blank": 20
+                },
+                ".browser": {
+                    "code": 16,
+                    "comment": 140,
+                    "blank": 0
+                },
+                ".physicMaterial": {
+                    "code": 13,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".lighting": {
+                    "code": 189,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".aspx": {
+                    "code": 7844,
+                    "comment": 209,
+                    "blank": 1370
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\db.lock"
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube copy\\xs\\UserPrefs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\db.lock"
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube\\xs\\UserPrefs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 396,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-Editor-firstpass.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 438,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-Editor.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 336,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-firstpass.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 788,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\Bouncy.physicMaterial"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\ColorSchemeTest.cs"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 927,
+                    "comment": 2,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween.XML"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween43.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween43.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween46.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween46.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween50.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween50.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\Editor\\DOTweenEditor.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\Editor\\DOTweenEditor.XML"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 11,
+                    "filename": "Assets\\Demigiant\\DOTween\\Examples\\Basics.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 14,
+                    "filename": "Assets\\Demigiant\\DOTween\\Examples\\Sequences.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "Assets\\Demigiant\\DOTween\\readme.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Assets\\MimicTransform.cs"
+                },
+                {
+                    "blank": 20,
+                    "code": 120,
+                    "comment": 1,
+                    "filename": "Assets\\PuzzleCubeExploder.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\BillingMode.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2084,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-easy.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2438,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-hard.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 4952,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-normal.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\savedcube.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 411,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\words-hard.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "Assets\\response.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\GameplaySceneSettings.lighting"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\InitSettings.lighting"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\MainMenuSceneSettings.lighting"
+                },
+                {
+                    "blank": 15,
+                    "code": 59,
+                    "comment": 4,
+                    "filename": "Assets\\Scripts\\App.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\Axis.cs"
+                },
+                {
+                    "blank": 32,
+                    "code": 191,
+                    "comment": 32,
+                    "filename": "Assets\\Scripts\\Cube\\Cube.cs"
+                },
+                {
+                    "blank": 21,
+                    "code": 127,
+                    "comment": 4,
+                    "filename": "Assets\\Scripts\\Cube\\CubeBuilder.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 1,
+                    "comment": 33,
+                    "filename": "Assets\\Scripts\\Cube\\CubeSerialization.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\Cubit.cs"
+                },
+                {
+                    "blank": 23,
+                    "code": 107,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\Cube\\CubitFace.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\CubitLetterOrientation.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\RandomCharacter.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 79,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\Cube\\Slice.cs"
+                },
+                {
+                    "blank": 13,
+                    "code": 75,
+                    "comment": 3,
+                    "filename": "Assets\\Scripts\\Cube\\SliceBuilder.cs"
+                },
+                {
+                    "blank": 37,
+                    "code": 272,
+                    "comment": 44,
+                    "filename": "Assets\\Scripts\\Gameplay\\CubeController.cs"
+                },
+                {
+                    "blank": 13,
+                    "code": 96,
+                    "comment": 3,
+                    "filename": "Assets\\Scripts\\Gameplay\\GameplayLogic.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 84,
+                    "comment": 11,
+                    "filename": "Assets\\Scripts\\Gameplay\\Music.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Gameplay\\PuzzleDifficulty.cs"
+                },
+                {
+                    "blank": 44,
+                    "code": 534,
+                    "comment": 9,
+                    "filename": "Assets\\Scripts\\Gameplay\\PuzzleLogic.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\UI\\AppButton.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 75,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\UI\\AppPresentation.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\DictionaryScreen.cs"
+                },
+                {
+                    "blank": 20,
+                    "code": 110,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\DifficultyScreen.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\GameOverScreen.cs"
+                },
+                {
+                    "blank": 31,
+                    "code": 184,
+                    "comment": 20,
+                    "filename": "Assets\\Scripts\\UI\\GameplayPresentation.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\UI\\GlobalColorThemeable.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\GoalText.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\UI\\MainMenuLogic.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Constants.cs"
+                },
+                {
+                    "blank": 16,
+                    "code": 106,
+                    "comment": 8,
+                    "filename": "Assets\\Scripts\\Util\\Extensions.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Mathz.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Object3DScriptBase.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\ObjectParticleSystem.cs"
+                },
+                {
+                    "blank": 27,
+                    "code": 128,
+                    "comment": 24,
+                    "filename": "Assets\\Scripts\\Util\\Planter.cs"
+                },
+                {
+                    "blank": 138,
+                    "code": 1115,
+                    "comment": 18,
+                    "filename": "Assets\\Scripts\\Util\\SimpleJSON.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\StaticScriptBase.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\YieldInstructions.cs"
+                },
+                {
+                    "blank": 12,
+                    "code": 1,
+                    "comment": 162,
+                    "filename": "Assets\\Scripts\\Words\\DictionaryQuery.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 58,
+                    "comment": 4,
+                    "filename": "Assets\\Scripts\\Words\\WordBank.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Words\\WordDefinition.cs"
+                },
+                {
+                    "blank": 29,
+                    "code": 154,
+                    "comment": 1,
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\License!.txt"
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansBold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansLight.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansRegular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansSemibold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\Unipix.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 188,
+                    "code": 1689,
+                    "comment": 0,
+                    "filename": "Logs\\ApiUpdaterCheck.txt"
+                },
+                {
+                    "blank": 7,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "Logs\\AssetImportWorker0-prev.log"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Logs\\Packages-Update.log"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Logs\\shadercompiler-UnityShaderCompiler.exe0.log"
+                },
+                {
+                    "blank": 0,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Packages\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 400,
+                    "comment": 0,
+                    "filename": "Packages\\packages-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "SavedCube.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "WordCube Alpha.sln"
+                },
+                {
+                    "blank": 0,
+                    "code": 353,
+                    "comment": 0,
+                    "filename": "WordCube.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 403,
+                    "comment": 0,
+                    "filename": "WordCube.Editor.Plugins.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 341,
+                    "comment": 0,
+                    "filename": "WordCube.Plugins.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "WordCube.sln"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\libcrypto.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\libssl.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\Mono\\MonoEmbedRuntime\\osx\\libmono.0.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\Mono\\MonoEmbedRuntime\\osx\\libMonoPosixHelper.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Info.plist"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\MacOS\\WordCubeMac",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 262,
+                    "code": 1517,
+                    "comment": 41,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\1.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 8,
+                    "code": 235,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\1.0\\machine.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1578,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 17,
+                    "code": 256,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\settings.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 149,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\web.config"
+                },
+                {
+                    "blank": 3170,
+                    "code": 12363,
+                    "comment": 204,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\browscap.ini"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\config"
+                },
+                {
+                    "blank": 61,
+                    "code": 525,
+                    "comment": 30,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\mconfig\\config.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 17,
+                    "code": 266,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 149,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 18,
+                    "code": 292,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map"
+                },
+                {
+                    "blank": 7,
+                    "code": 246,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 18,
+                    "code": 295,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map"
+                },
+                {
+                    "blank": 7,
+                    "code": 246,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config"
+                },
+                {
+                    "blank": 3170,
+                    "code": 12363,
+                    "comment": 204,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\browscap.ini"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\config"
+                },
+                {
+                    "blank": 61,
+                    "code": 525,
+                    "comment": 30,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\registry\\last-btime"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\boot.config"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\globalgamemanagers",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\globalgamemanagers.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level0",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level0.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level1",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level1.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level2.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level3",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level3.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AccessibilityModule.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 542,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 863,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AnimationModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ARModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 317,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AssetBundleModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 776,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AudioModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.BaselibModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClothModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CloudWebServicesModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 119,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClusterInputModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClusterRendererModule.xml"
+                },
+                {
+                    "blank": 30,
+                    "code": 12591,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CoreModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CrashReportingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.DirectorModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.FacebookModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.FileSystemHttpModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 391,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.GameCenterModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 236,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.GridModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.HotReloadModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ImageConversionModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 3397,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.IMGUIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.InputModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.JSONSerializeModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.LocalizationModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ParticlesLegacyModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 1713,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ParticleSystemModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.PerformanceReportingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1904,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.Physics2DModule.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 1788,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.PhysicsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ProfilerModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ScreenCaptureModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SharedInternalsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpatialTrackingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpriteMaskModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 165,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpriteShapeModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.StreamingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.StyleSheetsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 232,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SubstanceModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 641,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TerrainModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 256,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TextRenderingModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 267,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TilemapModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TimelineModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TLSModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 3218,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UIElementsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UmbraModule.xml"
+                },
+                {
+                    "blank": 12,
+                    "code": 828,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UNETModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 176,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityConnectModule.xml"
+                },
+                {
+                    "blank": 10,
+                    "code": 216,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 719,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 181,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 98,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VehiclesModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 281,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VideoModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 226,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VRModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.WindModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 508,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.XRModule.xml"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\resources.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Resources\\unity_builtin_extra",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets0.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets1.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets2.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets2.assets.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets3.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\DefaultPreferences.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 341,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\designable.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\unity default resources",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-08-10 00:01:16",
+            "filesum": 223,
+            "codesum": 459152,
+            "commentsum": 1227,
+            "blanksum": 54645,
+            "statistics": {
+                ".sln": {
+                    "code": 37,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".csproj": {
+                    "code": 3036,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 9924,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 2821,
+                    "comment": 2,
+                    "blank": 284
+                },
+                ".physicMaterial": {
+                    "code": 13,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cs": {
+                    "code": 4479,
+                    "comment": 406,
+                    "blank": 635
+                },
+                ".log": {
+                    "code": 367145,
+                    "comment": 0,
+                    "blank": 45702
+                },
+                ".xml": {
+                    "code": 35039,
+                    "comment": 60,
+                    "blank": 192
+                },
+                ".lock": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".lighting": {
+                    "code": 189,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".nib": {
+                    "code": 498,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".XML": {
+                    "code": 950,
+                    "comment": 2,
+                    "blank": 0
+                },
+                ".plist": {
+                    "code": 55,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".config": {
+                    "code": 2137,
+                    "comment": 0,
+                    "blank": 102
+                },
+                "": {
+                    "code": 71,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".map": {
+                    "code": 172,
+                    "comment": 0,
+                    "blank": 20
+                },
+                ".browser": {
+                    "code": 16,
+                    "comment": 140,
+                    "blank": 0
+                },
+                ".aspx": {
+                    "code": 7844,
+                    "comment": 209,
+                    "blank": 1370
+                },
+                ".ini": {
+                    "code": 24726,
+                    "comment": 408,
+                    "blank": 6340
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\db.lock"
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube copy\\xs\\sqlite3\\storage.ide-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube copy\\xs\\UserPrefs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\db.lock"
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\WordCube\\xs\\sqlite3\\storage.ide-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": ".vs\\WordCube\\xs\\UserPrefs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 396,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-Editor-firstpass.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 438,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-Editor.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 336,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp-firstpass.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 769,
+                    "comment": 0,
+                    "filename": "Assembly-CSharp.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\Bouncy.physicMaterial"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\ColorSchemeTest.cs"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 927,
+                    "comment": 2,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween.XML"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween43.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween43.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween46.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 157,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween46.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween50.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\DOTween50.xml"
+                },
+                {
+                    "filename": "Assets\\Demigiant\\DOTween\\Editor\\DOTweenEditor.dll.mdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Assets\\Demigiant\\DOTween\\Editor\\DOTweenEditor.XML"
+                },
+                {
+                    "blank": 6,
+                    "code": 13,
+                    "comment": 11,
+                    "filename": "Assets\\Demigiant\\DOTween\\Examples\\Basics.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 14,
+                    "filename": "Assets\\Demigiant\\DOTween\\Examples\\Sequences.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "Assets\\Demigiant\\DOTween\\readme.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Assets\\MimicTransform.cs"
+                },
+                {
+                    "blank": 20,
+                    "code": 120,
+                    "comment": 1,
+                    "filename": "Assets\\PuzzleCubeExploder.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\BillingMode.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2084,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-easy.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2438,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-hard.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 4952,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\dict-normal.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\savedcube.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 411,
+                    "comment": 0,
+                    "filename": "Assets\\Resources\\words-hard.txt"
+                },
+                {
+                    "blank": 9,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "Assets\\response.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\GameplaySceneSettings.lighting"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\InitSettings.lighting"
+                },
+                {
+                    "blank": 0,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "Assets\\Scenes\\MainMenuSceneSettings.lighting"
+                },
+                {
+                    "blank": 15,
+                    "code": 59,
+                    "comment": 4,
+                    "filename": "Assets\\Scripts\\App.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\Axis.cs"
+                },
+                {
+                    "blank": 30,
+                    "code": 184,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\Cube\\Cube.cs"
+                },
+                {
+                    "blank": 17,
+                    "code": 124,
+                    "comment": 6,
+                    "filename": "Assets\\Scripts\\Cube\\CubeBuilder.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 1,
+                    "comment": 33,
+                    "filename": "Assets\\Scripts\\Cube\\CubeSerialization.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\Cubit.cs"
+                },
+                {
+                    "blank": 12,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\CubitFace.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\CubitLetterOrientation.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Cube\\RandomCharacter.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 79,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\Cube\\Slice.cs"
+                },
+                {
+                    "blank": 13,
+                    "code": 75,
+                    "comment": 3,
+                    "filename": "Assets\\Scripts\\Cube\\SliceBuilder.cs"
+                },
+                {
+                    "blank": 37,
+                    "code": 293,
+                    "comment": 18,
+                    "filename": "Assets\\Scripts\\Gameplay\\CubeController.cs"
+                },
+                {
+                    "blank": 14,
+                    "code": 91,
+                    "comment": 18,
+                    "filename": "Assets\\Scripts\\Gameplay\\GameplayLogic.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 84,
+                    "comment": 11,
+                    "filename": "Assets\\Scripts\\Gameplay\\Music.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Gameplay\\PuzzleDifficulty.cs"
+                },
+                {
+                    "blank": 87,
+                    "code": 748,
+                    "comment": 35,
+                    "filename": "Assets\\Scripts\\Gameplay\\PuzzleLogic.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\UI\\AppButton.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 75,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\UI\\AppPresentation.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\DictionaryScreen.cs"
+                },
+                {
+                    "blank": 20,
+                    "code": 110,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\DifficultyScreen.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\GameOverScreen.cs"
+                },
+                {
+                    "blank": 35,
+                    "code": 220,
+                    "comment": 34,
+                    "filename": "Assets\\Scripts\\UI\\GameplayPresentation.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\UI\\GlobalColorThemeable.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\GoalText.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\UI\\LinkButton.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 79,
+                    "comment": 2,
+                    "filename": "Assets\\Scripts\\UI\\MainMenuLogic.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Constants.cs"
+                },
+                {
+                    "blank": 13,
+                    "code": 99,
+                    "comment": 1,
+                    "filename": "Assets\\Scripts\\Util\\Extensions.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Mathz.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\Object3DScriptBase.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\ObjectParticleSystem.cs"
+                },
+                {
+                    "blank": 27,
+                    "code": 128,
+                    "comment": 24,
+                    "filename": "Assets\\Scripts\\Util\\Planter.cs"
+                },
+                {
+                    "blank": 138,
+                    "code": 1115,
+                    "comment": 18,
+                    "filename": "Assets\\Scripts\\Util\\SimpleJSON.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\StaticScriptBase.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Util\\YieldInstructions.cs"
+                },
+                {
+                    "blank": 12,
+                    "code": 1,
+                    "comment": 162,
+                    "filename": "Assets\\Scripts\\Words\\DictionaryQuery.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 58,
+                    "comment": 4,
+                    "filename": "Assets\\Scripts\\Words\\WordBank.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Assets\\Scripts\\Words\\WordDefinition.cs"
+                },
+                {
+                    "blank": 29,
+                    "code": 154,
+                    "comment": 1,
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\License!.txt"
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansBold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansLight.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansRegular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\OpenSans\\OpenSansSemibold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Assets\\Standard Assets\\Fonts\\Unipix.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 244,
+                    "code": 2193,
+                    "comment": 0,
+                    "filename": "Logs\\ApiUpdaterCheck.txt"
+                },
+                {
+                    "blank": 45698,
+                    "code": 367121,
+                    "comment": 0,
+                    "filename": "Logs\\AssetImportWorker0-prev.log"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Logs\\Packages-Update.log"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Logs\\shadercompiler-UnityShaderCompiler.exe0.log"
+                },
+                {
+                    "blank": 0,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Packages\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 400,
+                    "comment": 0,
+                    "filename": "Packages\\packages-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "SavedCube.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "WordCube Alpha.sln"
+                },
+                {
+                    "blank": 0,
+                    "code": 353,
+                    "comment": 0,
+                    "filename": "WordCube.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 403,
+                    "comment": 0,
+                    "filename": "WordCube.Editor.Plugins.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 341,
+                    "comment": 0,
+                    "filename": "WordCube.Plugins.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "WordCube.sln"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\libcrypto.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\libssl.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\Mono\\MonoEmbedRuntime\\osx\\libmono.0.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Frameworks\\Mono\\MonoEmbedRuntime\\osx\\libMonoPosixHelper.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Info.plist"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\MacOS\\WordCubeMac",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 262,
+                    "code": 1517,
+                    "comment": 41,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\1.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 8,
+                    "code": 235,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\1.0\\machine.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1578,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 17,
+                    "code": 256,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\settings.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 149,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\2.0\\web.config"
+                },
+                {
+                    "blank": 3170,
+                    "code": 12363,
+                    "comment": 204,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\browscap.ini"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\config"
+                },
+                {
+                    "blank": 61,
+                    "code": 525,
+                    "comment": 30,
+                    "filename": "WordCubeMac.app\\Contents\\Mono\\etc\\mono\\mconfig\\config.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 17,
+                    "code": 266,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\settings.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 149,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 18,
+                    "code": 292,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\settings.map"
+                },
+                {
+                    "blank": 7,
+                    "code": 246,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 35,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser"
+                },
+                {
+                    "blank": 277,
+                    "code": 1583,
+                    "comment": 42,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx"
+                },
+                {
+                    "blank": 18,
+                    "code": 295,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map"
+                },
+                {
+                    "blank": 7,
+                    "code": 246,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config"
+                },
+                {
+                    "blank": 3170,
+                    "code": 12363,
+                    "comment": 204,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\browscap.ini"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\config"
+                },
+                {
+                    "blank": 61,
+                    "code": 525,
+                    "comment": 30,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\MonoBleedingEdge\\etc\\mono\\registry\\last-btime"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\boot.config"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\globalgamemanagers",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\globalgamemanagers.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level0",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level0.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level1",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level1.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level2.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level3",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\level3.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AccessibilityModule.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 542,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 863,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AnimationModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ARModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 317,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AssetBundleModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 776,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.AudioModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.BaselibModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClothModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CloudWebServicesModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 119,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClusterInputModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ClusterRendererModule.xml"
+                },
+                {
+                    "blank": 30,
+                    "code": 12591,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CoreModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.CrashReportingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.DirectorModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.FacebookModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.FileSystemHttpModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 391,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.GameCenterModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 236,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.GridModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.HotReloadModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ImageConversionModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 3397,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.IMGUIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.InputModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.JSONSerializeModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.LocalizationModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ParticlesLegacyModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 1713,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ParticleSystemModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.PerformanceReportingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1904,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.Physics2DModule.xml"
+                },
+                {
+                    "blank": 4,
+                    "code": 1788,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.PhysicsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ProfilerModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.ScreenCaptureModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SharedInternalsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpatialTrackingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpriteMaskModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 165,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SpriteShapeModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.StreamingModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.StyleSheetsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 232,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.SubstanceModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 641,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TerrainModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 256,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TextRenderingModule.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 267,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TilemapModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TimelineModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.TLSModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 3218,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UIElementsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UIModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UmbraModule.xml"
+                },
+                {
+                    "blank": 12,
+                    "code": 828,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UNETModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 176,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityConnectModule.xml"
+                },
+                {
+                    "blank": 10,
+                    "code": 216,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.xml"
+                },
+                {
+                    "blank": 6,
+                    "code": 719,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 181,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 98,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VehiclesModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 281,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VideoModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 226,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.VRModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.WindModule.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 508,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Managed\\UnityEngine.XRModule.xml"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\resources.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\Resources\\unity_builtin_extra",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets0.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets1.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets2.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets2.assets.resS",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\Data\\sharedassets3.assets",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\DefaultPreferences.plist"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\KeyConfig.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\MainMenu.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\classes.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 341,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\designable.nib"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\info.nib"
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\ScreenSelector.nib\\keyedobjects.nib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "WordCubeMac.app\\Contents\\Resources\\unity default resources",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}
