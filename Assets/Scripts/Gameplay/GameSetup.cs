@@ -9,9 +9,14 @@ public class GameSetup : MonoBehaviour
     [Serializable]
     private class GameParameters
     {
-        public float[] cameraDistances = {9f, 11f, 15f};
+        public float[] cameraDistances = { 9f, 11f, 15f };
         public float[] puzzleDensities = { 0.7f, 0.7f, 0.7f };
         public int[]   comboObjectives = { 3, 3, 3 };
+
+        public float GetCameraDistance(PuzzleDifficulty difficulty)
+        {
+            return cameraDistances[difficulty.ToInt()];
+        }
 
         public float GetDensity(PuzzleDifficulty difficulty)
         {
@@ -21,11 +26,6 @@ public class GameSetup : MonoBehaviour
         public int GetComboGoal(PuzzleDifficulty difficulty)
         {
             return comboObjectives[difficulty.ToInt()];
-        }
-
-        public float GetCameraDistance(PuzzleDifficulty difficulty)
-        {
-            return cameraDistances[difficulty.ToInt()];
         }
     }
 
@@ -60,7 +60,6 @@ public class GameSetup : MonoBehaviour
         presentation.AllowUIInput(true);
         session.Unpause();
         controller.Enable();
-
         while (!postgame.IsFinished) yield return null;
         yield return App.FadeOut(true);
     }
@@ -105,6 +104,7 @@ public class GameSetup : MonoBehaviour
                 presentation.Hide();
                 postgame.OutroSequence(cube, controller, time, moves, bonus, solutions);
             };
+
         session.ComboChanged += delta =>
             {
                 presentation.UpdateComboCount(session.CurrentCombo, session.ComboToWin, delta);

@@ -21,26 +21,19 @@ public class ComboText : MonoBehaviour
 
     public void UpdateCount(int current, int max, int delta)
     {
-        if (current == prevCombo) return;
-        prevCombo = current;
-        //if (comboFade.IsPlaying()) return;
+        if (current == prevCombo || current == max) return;
+        prevCombo  = current;
         label.text = $"{current}/{max}";
         StartCoroutine(DoAnimation());
     }
 
     IEnumerator DoAnimation()
     {
-
         comboFade ??= DOTween.Sequence()
-           .Append(cgroup
-                      .DOFade(1f, 1f))
-                      //.SetAutoKill(false))
+           .Append(cgroup.DOFade(1f, 1f))
            .AppendInterval(1f)
-           .Append(cgroup
-                      .DOFade(0f, 1f))
-                      //.SetAutoKill(false))
+           .Append(cgroup.DOFade(0f, 1f))
            .SetAutoKill(false);
-
         comboFade.Restart();
         yield return comboFade.WaitForCompletion();
     }

@@ -24,16 +24,20 @@
 
 using DG.Tweening;
 using System.Collections;
-using System.Collections.Generic;
+
 using System.Linq;
 using UnityEngine;
 public class CubeExplosion : MonoBehaviour
 {
-    [SerializeField] private float          shakeDuration       = 1f;
-    [SerializeField] private float          shakeIntensity      = 0.7f;
-    [SerializeField] private int            shakeVibrato        = 1000;
-    [SerializeField] private float          explosionForce      = 3000f;
-    [SerializeField] private float          explosionRandomness = 1f;
+    [SerializeField] private float          shakeDuration           = 2f;
+    [SerializeField] private float          warmupShakeIntensity    = 0.25f;
+    [SerializeField] private float          scaleDuration           = 0.2f;
+    [SerializeField] private float          explosionShakeIntensity = 1.5f;
+    [SerializeField] private float          slowdownDuration        = 2f;
+    [SerializeField] private float          slowdownMultiplier      = 0.1f;
+    [SerializeField] private int            shakeVibrato            = 1000;
+    [SerializeField] private float          explosionForceMin       = 2000f;
+    [SerializeField] private float          explosionForceVariance  = 2000f;
     [SerializeField] private PhysicMaterial physMat;
     [SerializeField] private AudioSource    riser;
     [SerializeField] private AudioSource    explode;
@@ -47,8 +51,10 @@ public class CubeExplosion : MonoBehaviour
     {
         DeleteUselessObjects(cube);
         yield return StartCoroutine(Warmup(cube));
+
+        Camera.main.DOShakePosition(shakeDuration, explosionShakeIntensity, shakeVibrato).Play();
         StartCoroutine(ApplyPhysicsAmortized(cube.Cubits.ToArray(), cube.Size));
-        StartCoroutine(TweenTimeScale(0.2f, 2.5f));
+        StartCoroutine(TweenTimeScale(slowdownMultiplier, slowdownDuration));
     }
 
     private IEnumerator Warmup(Cube cube)
@@ -56,25 +62,27 @@ public class CubeExplosion : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         var deflate = cube.Transform
-           .DOScale(Vector3.one * 0.33f, 0.125f)
+           .DOScale(Vector3.one * 0.33f, scaleDuration)
            .SetEase(Ease.OutCirc);
+
         var cam = Camera.main
-           .DOShakePosition(shakeDuration, shakeIntensity, shakeVibrato, 90, false);
+           .DOShakePosition(shakeDuration + scaleDuration, warmupShakeIntensity, shakeVibrato, 90f, false);
 
         var spin = cube.Transform
-           .DOBlendableRotateBy(Random.rotation.eulerAngles * 3f, shakeDuration + 0.125f, RotateMode.FastBeyond360)
+           .DOBlendableRotateBy(Random.rotation.eulerAngles * 15f, shakeDuration + scaleDuration, RotateMode.FastBeyond360)
            .SetEase(Ease.InCirc);
-
+        
         var inflate = cube.Transform
-           .DOScale(Vector3.one * 1f, 0.125f)
-           .SetEase(Ease.InExpo);
+           .DOScale(Vector3.one * 1f, scaleDuration)
+           .SetEase(Ease.InExpo)
+           .SetDelay(shakeDuration);
 
         riser.Play();
         yield return DOTween.Sequence()
            .Join(deflate)
            .Append(cam)
            .Join(spin)
-           .Append(inflate)
+           .Join(inflate)
            .Play()
            .WaitForCompletion();
         riser.Stop();
@@ -83,11 +91,12 @@ public class CubeExplosion : MonoBehaviour
 
     private IEnumerator ApplyPhysicsAmortized(Cubit[] cubits, float radius)
     {
+
         cubits.Shuffle();
         var startTime = Time.realtimeSinceStartupAsDouble;
         foreach (var cubit in cubits)
         {
-            if (Time.realtimeSinceStartupAsDouble - startTime > 0.004)
+            if (Time.realtimeSinceStartupAsDouble - startTime > 0.001)
             {
                 yield return null;
                 startTime = Time.realtimeSinceStartupAsDouble;
@@ -100,9 +109,8 @@ public class CubeExplosion : MonoBehaviour
     {
         cubit.Collider.enabled = true;
         cubit.Body.isKinematic = false;
-        cubit.Body.AddRelativeTorque(Random.Range(0f, explosionRandomness) * Random.onUnitSphere);
-        var offset = Random.Range(0, explosionRandomness) * Random.onUnitSphere;
-        cubit.Body.AddExplosionForce(explosionForce, Vector3.zero + offset, radius);
+        cubit.Body.AddRelativeTorque(Random.Range(0f, explosionForceVariance) * Random.onUnitSphere, ForceMode.VelocityChange);
+        cubit.Body.AddExplosionForce(Random.Range(0f, 1f) * explosionForceVariance + explosionForceMin, Vector3.zero, radius);
     }
 
     private void DeleteUselessObjects(Cube cube)
@@ -117,22 +125,10 @@ public class CubeExplosion : MonoBehaviour
 
     private IEnumerator TweenTimeScale(float s, float time)
     {
-        yield return new WaitForSeconds(0.1f);
-        float elapsed = 0;
-
-
-        Camera.main
-           .DOShakePosition(time, shakeIntensity * 0.65f, shakeVibrato, 90, false)
-           .Play();
-
-        while (true)
-        {
-            var ratio = Mathf.Clamp01(elapsed / time);
-            ratio          = ratio * ratio * ratio * ratio * ratio;
-            Time.timeScale = Mathf.Lerp(s, 1f, ratio);
-            if (elapsed > time) break;
-            yield return null;
-            elapsed += Time.unscaledDeltaTime;
-        }
+        DOTween.defaultTimeScaleIndependent = true;
+        yield return DOVirtual.Float(s, 1f, time, val => Time.timeScale = val)
+           .SetEase(Ease.InSine)
+           .Play()
+           .WaitForCompletion();
     }
 }

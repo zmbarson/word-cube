@@ -563,7 +563,7 @@ MonoBehaviour:
   normalizedDragThreshold: 0.02
   dragSpeedSlice: 12
   turnSpeedSlice: 120
-  dragSpeedCube: 0.065
+  dragSpeedCube: 0.1
   twistSnapProximity: 25
   clampEase: 13
   clampSpeed: 100
@@ -3792,11 +3792,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3c7f06b72c2b47529e7dfcb57d640b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shakeDuration: 1.33
-  shakeIntensity: 0.25
+  shakeDuration: 2
+  warmupShakeIntensity: 0.25
+  scaleDuration: 0.2
+  explosionShakeIntensity: 1.5
+  slowdownDuration: 2
+  slowdownMultiplier: 0.1
   shakeVibrato: 1000
-  explosionForce: 2000
-  explosionRandomness: 1
+  explosionForceMin: 2000
+  explosionForceVariance: 2000
   physMat: {fileID: 13400000, guid: 2aa85a86f947c410ea7445476af5774b, type: 2}
   riser: {fileID: 1803511252}
   explode: {fileID: 1803511251}
@@ -3815,7 +3819,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4007,7 +4011,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b192f95189814f96997a1a0ace1af12, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -111,6 +111,7 @@ public class App : StaticScriptBase<App>
                 item.UpdateColor(ColorScheme);
         camera.SetBackgroundColor(ColorScheme);
     }
+
     public static void SetCameraDistance(float d)
     {
         instance.camera.SetCameraDistance(d);

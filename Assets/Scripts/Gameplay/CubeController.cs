@@ -43,11 +43,10 @@ public class CubeController : MonoBehaviour
     [SerializeField] private float normalizedDragThreshold = 0.02f; //percent of screen height in pixels
     [SerializeField] private float dragSpeedSlice          = 8;
     [SerializeField] private float turnSpeedSlice          = 120;
-    [SerializeField] private float dragSpeedCube           = 65f;
+    [SerializeField] private float dragSpeedCube           = 0.8f;
     [SerializeField] private float twistSnapProximity      = 25f;
     [SerializeField] private Ease  clampEase               = Ease.InOutQuart;
     [SerializeField] private float clampSpeed              = 0.5f;
-
 
     public bool IsAnimating => state == State.SnapCube ||
                                state == State.TurnCube ||
