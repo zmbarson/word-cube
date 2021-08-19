@@ -23,13 +23,24 @@
 // 
 
 using System.Collections.Generic;
+using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider), typeof(Rigidbody))]
 public class Cubit : Object3DScriptBase
 {
     private readonly CubitFace[] faces = new CubitFace[Axis.Count.ToInt()];
     public int Col { get; private set; }
     public int Row { get; private set; }
     public int Depth { get; private set; }
+
+    public Rigidbody   Body     { get; private set; }
+    public BoxCollider Collider { get; private set; }
+
+    private void Awake()
+    {
+        Body     = GetComponent<Rigidbody>();
+        Collider = GetComponent<BoxCollider>();
+    }
 
     public CubitFace this[Axis axis]
     {

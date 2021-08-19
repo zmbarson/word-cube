@@ -37,9 +37,9 @@ public class GameAudio : MonoBehaviour
     private AudioSource[] layers;
     private float[] volumes;
 
-    private Tween[] layerTweens;
-    private Tween   lowpassTween;
-    private Tween   masterVolumeTween;
+    private Tween[]            layerTweens;
+    private Tween              lowpassTween;
+    private Tween              masterVolumeTween;
 
     private void Awake()
     {
@@ -54,7 +54,6 @@ public class GameAudio : MonoBehaviour
             }
             layers[i].Play();
         }
-
     }
 
     public void MuteLayers()
@@ -123,21 +122,19 @@ public class GameAudio : MonoBehaviour
 
     public void ApplyLowpass()
     {
-        if (lowpassTween != null && lowpassTween.IsPlaying())
-        {
-            lowpassTween.Kill();
-        }
-
-        mixer.DOSetFloat("lowpassCutoff", 500f, 0.125f).SetEase(Ease.Linear).Play();
+        TweenLowpass(500f, 0.125f);
+    }
+    public void RemoveLowpass()
+    {
+        TweenLowpass(22000f, 1.5f);
     }
 
-    public void RemoveLowpass()
+    void TweenLowpass(float to, float time)
     {
         if (lowpassTween != null && lowpassTween.IsPlaying())
         {
             lowpassTween.Kill();
         }
-
-        mixer.DOSetFloat("lowpassCutoff", 22000f, 1.5f).SetEase(Ease.Linear).Play();
+        mixer.DOSetFloat("lowpassCutoff", to, time).SetEase(Ease.Linear).Play();
     }
 }

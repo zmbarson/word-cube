@@ -29,12 +29,6 @@ public static class Scene
     public const int GAMEPLAY  = 2;
 }
 
-public static class ResourceIdentifiers
-{
-    public const string CUBIT      = "Cubit";
-    public const string CUBIT_FACE = "CubitFace";
-}
-
 public static class CollisionLayers
 {
     public const int CUBE_LAYER     = 16;

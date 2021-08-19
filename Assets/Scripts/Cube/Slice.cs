@@ -28,9 +28,9 @@ using UnityEngine;
 
 public class Slice : Object3DScriptBase
 {
-    private Cube  owner;
-    private int[] indices;
-    private bool  cubitsAttached;
+    private Cube      owner;
+    private List<int> indices;
+    private bool      cubitsAttached;
 
     public Axis    Axis   { get; private set; }
     public Vector3 Normal => Axis.ToVector();
@@ -47,7 +47,7 @@ public class Slice : Object3DScriptBase
 
     public IEnumerable<Cubit> Cubits => indices.Select(index => owner[index]);
 
-    public void Setup(Cube owner, Axis axis, int[] indices)
+    public void Setup(Cube owner, Axis axis, List<int> indices)
     {
         this.owner   = owner;
         Axis         = axis;

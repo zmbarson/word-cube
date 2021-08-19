@@ -907,7 +907,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: WORD<GOAL>
 --- !u!222 &522862465
@@ -3792,11 +3792,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3c7f06b72c2b47529e7dfcb57d640b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shakeDuration: 2
-  shakeIntensity: 0.4
+  shakeDuration: 1.33
+  shakeIntensity: 0.25
   shakeVibrato: 1000
   explosionForce: 2000
-  explosionRandomness: 2
+  explosionRandomness: 1
   physMat: {fileID: 13400000, guid: 2aa85a86f947c410ea7445476af5774b, type: 2}
   riser: {fileID: 1803511252}
   explode: {fileID: 1803511251}
@@ -3910,7 +3910,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: c5a136be288454b89bbbdce37a4cda5f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.02
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4007,7 +4007,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 4b192f95189814f96997a1a0ace1af12, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.02
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0

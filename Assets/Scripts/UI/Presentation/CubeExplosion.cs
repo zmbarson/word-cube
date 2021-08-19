@@ -25,8 +25,8 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-
 public class CubeExplosion : MonoBehaviour
 {
     [SerializeField] private float          shakeDuration       = 1f;
@@ -43,85 +43,76 @@ public class CubeExplosion : MonoBehaviour
         return StartCoroutine(DoExplosionSequence(cube));
     }
 
-    private void ApplyPhysics(Cube cube)
-    {
-        var bodies = AttachPhysics(cube);
-        ApplyExplosionForces(cube.Size * 3f, bodies);
-        DeleteUselessComponents(cube);
-    }
-    private List<Rigidbody> AttachPhysics(Cube cube)
-    {
-        var bodies = new List<Rigidbody>();
-        foreach (var cubit in cube.Cubits)
-        {
-            var obj       = cubit.gameObject;
-            var collision = obj.AddComponent<BoxCollider>();
-            var body      = obj.AddComponent<Rigidbody>();
-            bodies.Add(body);
-            collision.material = physMat;
-        }
-
-        return bodies;
-    }
-    
-    private void ApplyExplosionForces(float radius, List<Rigidbody> bodies)
-    {
-        foreach (var body in bodies)
-        {
-            body.AddRelativeTorque(Random.Range(0f, explosionRandomness) * Random.onUnitSphere);
-            var offset = Random.Range(0, explosionRandomness) * Random.onUnitSphere;
-            body.AddExplosionForce(explosionForce, Vector3.zero + offset, radius);
-        }
-    }
-
-    private void DeleteUselessComponents(Cube cube)
-    {
-        cube.DestroyChildren<Slice>();
-        cube.DestroyChildren<Cubit>();
-        cube.DestroyChildren<CubitFace>();
-    }
-
     private IEnumerator DoExplosionSequence(Cube cube)
     {
+        DeleteUselessObjects(cube);
         yield return StartCoroutine(Warmup(cube));
-        ApplyPhysics(cube);
+        StartCoroutine(ApplyPhysicsAmortized(cube.Cubits.ToArray(), cube.Size));
+        StartCoroutine(TweenTimeScale(0.2f, 2.5f));
     }
 
-    IEnumerator Warmup(Cube cube)
+    private IEnumerator Warmup(Cube cube)
     {
         yield return new WaitForSeconds(0.2f);
 
         var deflate = cube.Transform
            .DOScale(Vector3.one * 0.33f, 0.125f)
            .SetEase(Ease.OutCirc);
-
         var cam = Camera.main
            .DOShakePosition(shakeDuration, shakeIntensity, shakeVibrato, 90, false);
 
         var spin = cube.Transform
-           .DORotate(Random.rotation.eulerAngles * 3f, shakeDuration + 0.125f, RotateMode.FastBeyond360)
+           .DOBlendableRotateBy(Random.rotation.eulerAngles * 3f, shakeDuration + 0.125f, RotateMode.FastBeyond360)
            .SetEase(Ease.InCirc);
 
         var inflate = cube.Transform
            .DOScale(Vector3.one * 1f, 0.125f)
-           .SetEase(Ease.InExpo)
-           .OnComplete(
-                       () =>
-                       {
-                           StartCoroutine(TweenTimeScale(0.15f, 1f));
-                           riser.Stop();
-                           explode.Play();
-                       }
-                      );
+           .SetEase(Ease.InExpo);
 
         riser.Play();
         yield return DOTween.Sequence()
-           .Append(deflate)
+           .Join(deflate)
            .Append(cam)
-           .Insert(shakeDuration, inflate)
-           .Insert(0f, spin)
+           .Join(spin)
+           .Append(inflate)
            .Play()
            .WaitForCompletion();
+        riser.Stop();
+        explode.Play();
+    }
+
+    private IEnumerator ApplyPhysicsAmortized(Cubit[] cubits, float radius)
+    {
+        cubits.Shuffle();
+        var startTime = Time.realtimeSinceStartupAsDouble;
+        foreach (var cubit in cubits)
+        {
+            if (Time.realtimeSinceStartupAsDouble - startTime > 0.004)
+            {
+                yield return null;
+                startTime = Time.realtimeSinceStartupAsDouble;
+            }
+            ApplyForce(radius, cubit);
+        }
+    }
+
+    private void ApplyForce(float radius, Cubit cubit)
+    {
+        cubit.Collider.enabled = true;
+        cubit.Body.isKinematic = false;
+        cubit.Body.AddRelativeTorque(Random.Range(0f, explosionRandomness) * Random.onUnitSphere);
+        var offset = Random.Range(0, explosionRandomness) * Random.onUnitSphere;
+        cubit.Body.AddExplosionForce(explosionForce, Vector3.zero + offset, radius);
+    }
+
+    private void DeleteUselessObjects(Cube cube)
+    {
+        foreach (var cubit in cube.InternalCubits)
+        {
+            Destroy(cubit.gameObject);
+        }
+        cube.DestroyChildren<Slice>();
+        cube.DestroyChildren<CubitFace>();
     }
 
     private IEnumerator TweenTimeScale(float s, float time)

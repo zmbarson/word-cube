@@ -61,7 +61,6 @@ public class Puzzle
         goal              =  word;
         cube.SliceUpdated += UpdatePuzzleState;
         solutions         =  new List<PuzzleSolution>[6];
-
         for (var face = 0; face < 6; face++)
             solutions[face] = new List<PuzzleSolution>(2 * 2 * word.Length); // Max number of  suolutions per face for a palindrome.
         duplicateLetters = new int[goal.Length][];
@@ -170,15 +169,24 @@ public class Puzzle
 
     private void Generate(float density)
     {
-        var idealBlanksPerFace =
-            Mathf.Max(0 /*1?*/, Mathf.FloorToInt((1 - Mathf.Clamp01(density)) * goal.Length * goal.Length));
+        var idealBlanksPerFace = Mathf.Max(0 /*1?*/, Mathf.FloorToInt((1 - Mathf.Clamp01(density)) * goal.Length * goal.Length));
+
 
         // Used to randomize cell population order
         var indices = new int[goal.Length * goal.Length];
         for (var i = 0; i < goal.Length * goal.Length; i++)
             indices[i] = i;
 
-        var faces = cube.GetSurfaces(cube);
+        // TODO: change implementation to verify the puzzle is solvable.
+        // The current approach sometimes produces unsolvable puzzles.
+        // This is most obvious with the 3x3 cube.
+        // Naive approach: ensure each letter is placed 3 timers (once per solution) before placing others.
+        // THIS IS NOT THE PROPER WAY TO DO IT, but it helps with the 3x3 cube in most cases.
+        var counts = new int[goal.Length];
+        var placedCount = 0;
+        //-----------------------------
+
+        var faces     = cube.GetSurfaces(cube);
         foreach (var grid in faces)
         {
             var numBlanks = 0;
@@ -190,6 +198,14 @@ public class Puzzle
                 var possibilities = AllPossiblePlacementsAt(row, col).Shuffle();
                 var placed        = false;
                 foreach (var possibility in possibilities)
+                {
+                    // TODO: remove when real solution verification is implemented.
+                    if (placedCount < goal.Length * 3 && counts[possibility] >= 3)
+                    {
+                        continue;
+                    }
+                    //-----------------------------
+
                     if (!CheckLinkAbove(grid, row, col, possibility, true) &&
                         !CheckLinkBelow(grid, row, col, possibility, true) &&
                         !CheckLinkLeft(grid, row, col, possibility, true) &&
@@ -197,10 +213,13 @@ public class Puzzle
                     {
                         grid[row, col].SetLetter(goal[possibility], possibility);
                         placed = true;
+                        counts[possibility]++;
+                        placedCount++;
                         break;
                     }
+                }
 
-                if (!placed)
+            if (!placed)
                 {
                     grid[row, col].SetBlank();
                     numBlanks++;

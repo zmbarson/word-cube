@@ -85,6 +85,13 @@ public static class PuzzleDifficultyExtensions
     {
         return (int) difficulty;
     }
+
+    public static int WordLength(this PuzzleDifficulty difficulty)
+    {
+        if (difficulty == PuzzleDifficulty.Easy) return 3;
+        if (difficulty == PuzzleDifficulty.Normal) return 5;
+        return 7;
+    }
 }
 
 public static class Vector3Extensions
@@ -142,7 +149,7 @@ public static class CollectionExtensions
 
 public static class ComponentExtensions
 {
-    public static void DestroyChildren<T>(this Component target) where T : UnityEngine.Object
+    public static void DestroyChildren<T>(this Component target) where T : Object
     {
         var objects = target.GetComponentsInChildren<T>();
         if (objects != null)

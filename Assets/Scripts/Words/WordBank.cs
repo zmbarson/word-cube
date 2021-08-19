@@ -28,47 +28,27 @@ using UnityEngine;
 
 public static class WordBank
 {
-    static WordInfo[] hardWords;
-    static WordInfo[] normalWords;
-    static WordInfo[] easyWords;
+    private static readonly WordInfo[][] Banks     = new WordInfo[3][];
+    private static readonly string[]     FileNames = new [] { "dict-easy", "dict-normal", "dict-hard" };
 
-    static WordBank()
+    public static void LoadIntoMemory()
     {
-        hardWords   = LoadHardWords();
-        normalWords = LoadNormalWords();
-        easyWords   = LoadEasyWords();
+        Banks[PuzzleDifficulty.Easy.ToInt()] = LoadWords(PuzzleDifficulty.Easy);
+        Banks[PuzzleDifficulty.Normal.ToInt()] = LoadWords(PuzzleDifficulty.Normal);
+        Banks[PuzzleDifficulty.Hard.ToInt()] = LoadWords(PuzzleDifficulty.Hard);
     }
 
-    static WordInfo[] LoadHardWords()
+    private static WordInfo[] GetBank(PuzzleDifficulty difficulty)
     {
-        var file = Resources.Load<TextAsset>("dict-hard");
-        var json = JSON.Parse(file.text);
-        var list = new List<WordInfo>();
-        foreach(var node in json.Children)
-        {
-            list.Add(new WordInfo(node["word"], node["pos"], node["pron"], node["def"]));
-        }
-        return list.ToArray();
+        return Banks[difficulty.ToInt()];
     }
 
-    static WordInfo[] LoadNormalWords()
+    private static WordInfo[] LoadWords(PuzzleDifficulty difficulty)
     {
-        var file = Resources.Load<TextAsset>("dict-normal");
+        var file = Resources.Load<TextAsset>($"Dictionary/{FileNames[difficulty.ToInt()]}");
         var json = JSON.Parse(file.text);
         var list = new List<WordInfo>();
-        foreach(var node in json.Children)
-        {
-            list.Add(new WordInfo(node["word"], node["pos"], node["pron"], node["def"]));
-        }
-        return list.ToArray();
-    }
-
-    static WordInfo[] LoadEasyWords()
-    {
-        var file = Resources.Load<TextAsset>("dict-easy");
-        var json = JSON.Parse(file.text);
-        var list = new List<WordInfo>();
-        foreach(var node in json.Children)
+        foreach (var node in json.Children)
         {
             list.Add(new WordInfo(node["word"], node["pos"], node["pron"], node["def"]));
         }
@@ -77,13 +57,7 @@ public static class WordBank
 
     public static WordInfo RandomWord(PuzzleDifficulty difficulty)
     {
-        switch (difficulty)
-        {
-            case PuzzleDifficulty.Normal: return normalWords.RandomItem();
-            case PuzzleDifficulty.Easy:   return easyWords.RandomItem();
-            case PuzzleDifficulty.Hard:   return hardWords.RandomItem();
-            default:                      return normalWords.RandomItem();
-        }
+        return GetBank(difficulty).RandomItem();
         // return hardWords.RandomItem();
         // return difficulty == PuzzleDifficulty.Easy ?
         //                                             normalWords.RandomIten() :

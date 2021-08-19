@@ -30,17 +30,18 @@ public class GameSetup : MonoBehaviour
     }
 
     [SerializeField]
-    private GameParameters          parameters;
-    private GameSession             session;
-    private GamePresentation        presentation;
-    private PostGame postgame;
-    private CubeController          controller;
+    private GameParameters   parameters;
+    private GameSession      session;
+    private GamePresentation presentation;
+    private CubeController   controller;
+    private PostGame         postgame;
+    private bool             isGameLoaded;
 
     private void Awake()
     {
         session      = GetComponent<GameSession>();
-        controller   = GetComponent<CubeController>();
         presentation = GetComponent<GamePresentation>();
+        controller   = GetComponent<CubeController>();
         postgame     = GetComponent<PostGame>();
         ConfigureUI();
     }
@@ -52,53 +53,50 @@ public class GameSetup : MonoBehaviour
 
     private IEnumerator SetupGame()
     {
-        // Game initialization and startup.
         yield return App.FadeIn(false);
-        yield return presentation.IntroSequence();
+        yield return presentation.DisplayDifficultyMenu();
+        while (!isGameLoaded) yield return null;
+        yield return presentation.RevealWord();
         presentation.AllowUIInput(true);
         session.Unpause();
         controller.Enable();
+
         while (!postgame.IsFinished) yield return null;
         yield return App.FadeOut(true);
     }
 
     private void ConfigureUI()
     {
-        presentation.DifficultyChosen += difficulty =>
-             {
-                 App.SetCameraDistance(parameters.GetCameraDistance(difficulty));
-                 PrepareGame(difficulty);
-                 presentation.SetDictionaryInfo(session.Word, session.WordInfo.partOfSpeech,
-                                                session.WordInfo.pronunciation, session.WordInfo.definition);
-             };
+        presentation.DifficultyChosen += PrepareGame;
+
+        presentation.WordButtonClicked += () => 
+        {
+              if (controller.IsAnimating) return;
+              presentation.DisplayDictScreen();
+        };
 
         IEnumerator AlignCube()
         {
             presentation.AllowUIInput(false);
-            session.Pause();
+            session.Pause(); 
             yield return controller.AlignCube();
             presentation.AllowUIInput(true);
             session.Unpause();
         }
 
         presentation.SnapButtonClicked += () =>
-              {
-                  if (controller.IsAnimating) return;
-                  presentation.StartCoroutine(AlignCube());
-              };
-
-        presentation.WordButtonClicked += () =>
-            {
-                if (controller.IsAnimating) return;
-                presentation.DisplayDictScreen();
-            };
+        {
+              if (controller.IsAnimating) return;
+              presentation.StartCoroutine(AlignCube());
+        };
     }
 
     private void PrepareGame(PuzzleDifficulty difficulty)
     {
         var dictEntry = WordBank.RandomWord(difficulty);
-        var cube      = FindObjectOfType<Cube>() ?? CubeBuilder.Build(dictEntry.word.Length);
-        var puzzle    = new Puzzle(cube, dictEntry.word, parameters.GetDensity(difficulty));
+
+        Cube   cube   = CubeBuilder.Construct(difficulty.WordLength());
+        Puzzle puzzle = new Puzzle(cube, dictEntry.word, parameters.GetDensity(difficulty));
 
         session.Setup(cube, dictEntry, parameters.GetComboGoal(difficulty), puzzle);
         session.PuzzleSolved += (cube, time, moves, bonus, solutions) =>
@@ -107,12 +105,17 @@ public class GameSetup : MonoBehaviour
                 presentation.Hide();
                 postgame.OutroSequence(cube, controller, time, moves, bonus, solutions);
             };
-        session.ComboChanged += delta => 
+        session.ComboChanged += delta =>
             {
                 presentation.UpdateComboCount(session.CurrentCombo, session.ComboToWin, delta);
             };
 
+        presentation.SetDictionaryInfo(dictEntry.word, dictEntry.partOfSpeech,
+                                       dictEntry.pronunciation, dictEntry.definition);
+
         controller.Possess(cube);
         controller.SetRotation(-17f, 46, -17f);
+        App.SetCameraDistance(parameters.GetCameraDistance(difficulty));
+        isGameLoaded = true;
     }
 }

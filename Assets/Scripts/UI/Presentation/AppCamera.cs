@@ -32,7 +32,7 @@ public class AppCamera : Object3DScriptBase
     [SerializeField] private Ease        fadeInEase  = Ease.OutSine;
     [SerializeField] private Ease        fadeOutEase = Ease.InSine;
 
-    private new Camera camera;
+    new private Camera camera;
 
     private void Awake()
     {

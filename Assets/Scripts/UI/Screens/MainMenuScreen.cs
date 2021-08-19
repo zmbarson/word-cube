@@ -57,8 +57,8 @@ public class MainMenuScreen : MonoBehaviour
     private IEnumerator DoShow()
     {
         App.SetCameraDistance(cameraOffset);
-        App.FadeIn(true);
         AnimateTitleSequence();
+        yield return App.FadeIn(false, 1f);
         yield return new AwaitTouch();
         yield return App.FadeOut(true);
     }

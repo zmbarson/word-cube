@@ -43,8 +43,8 @@ public class GameOverScreen : MonoBehaviour
     [SerializeField] private float        delay              = 0.25f;
     [SerializeField] private float        backgroundFadeTime = 0.25f;
     [SerializeField] private float        backgroundAlpha    = 0.78f;
-
     [SerializeField] private AudioSource  music;
+
     private void Awake()
     {
         mainLabel.text = mainMessages.RandomItem().ToUpper();
@@ -63,7 +63,7 @@ public class GameOverScreen : MonoBehaviour
     {
         // Do the cube explosion animation.
         // Game over sequence
-         music.Play();
+        music.Play();
         yield return new WaitForSeconds(1f);
 
         yield return background

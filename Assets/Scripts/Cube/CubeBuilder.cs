@@ -22,102 +22,98 @@
 // 
 // 
 
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Object = UnityEngine.Object;
 
 public static class CubeBuilder
 {
-    private const float CUBIT_EXTENT = 0.5f;
+    public static readonly Cubit cubitPrototype = Resources.Load<Cubit>("Prefabs/Cubit");
+    public static readonly CubitFace facePrototype = Resources.Load<CubitFace>("Prefabs/CubitFace");
 
-    public static readonly Cubit     cubitTemplate = Resources.Load<Cubit>(ResourceIdentifiers.CUBIT);
-    public static readonly CubitFace faceTemplate  = Resources.Load<CubitFace>(ResourceIdentifiers.CUBIT_FACE);
-
-    public static Cube Build(int size)
+    public static Cube Construct(int size)
     {
-        var parent = MakeParent(size);
-        var cubits = MakeCubits(cubitTemplate, faceTemplate, size);
-        foreach (var cubit in cubits)
-            if (cubit != null)
-                cubit.Transform.SetParent(parent.transform);
-
-        var cube = SetupCube(parent, size, cubits);
+        var cube   = MakeParent(size);
+        var cubits = BuildCubits(size, cube);
+        var slices = MakeSlices(cube, cubits, size);
+        cube.Init(size, cubits, slices);
         return cube;
     }
 
-    private static Cubit[,,] MakeCubits(Cubit cubitPrototype, CubitFace facePrototype, int size)
+    private static Cubit[,,] BuildCubits(int size, Cube parent)
     {
-        var centroid = Vector3.one * (size - 1) * 0.5f; //= Vector3.one * cubitSize * (cubeSize - 1) * 0.5f;
-        var cubits   = new Cubit[size, size, size];
+        var result = new Cubit[size, size, size];
         for (var depth = 0; depth < size; depth++)
         for (var row = 0; row < size; row++)
         for (var col = 0; col < size; col++)
         {
             if (IsInterior(col, row, depth, size)) continue;
-            var cubit = Object.Instantiate(cubitPrototype);
-            cubit.name = $"{col},{row},{depth}";
-            cubit.transform.position = new Vector3(col, row, depth) - centroid;
-            cubit.SetIndices(col, row, depth);
-            cubits[col, row, depth] = cubit;
-            SetupFaces(cubit, facePrototype, size);
+            var cubit = MakeCubit(size, row, col, depth);
+            cubit.Transform.SetParent(parent.Transform);
+            result[cubit.Col, cubit.Row, cubit.Depth] = cubit;
         }
-
-        return cubits;
+        return result;
     }
 
-    private static void SetupFaces(Cubit cubit, CubitFace template, int cubeSize)
+    private static Cubit MakeCubit(int cubeSize, int row, int col, int depth)
+    {
+        var centroid             = Vector3.one * (cubeSize - 1) * 0.5f;
+        var cubit                = Object.Instantiate(cubitPrototype);
+        cubit.name               = $"{col},{row},{depth}";
+        cubit.Transform.position = new Vector3(col, row, depth) - centroid;
+        cubit.SetIndices(col, row, depth);
+        SetupFaces(cubit, cubeSize);
+        return cubit;
+    }
+
+    private static void SetupFaces(Cubit cubit, int cubeSize)
     {
         var lowerLimit = 0;
         var upperLimit = cubeSize - 1;
-        if (cubit.Col == lowerLimit) MakeFace(cubit, Axis.Left, template);
-        if (cubit.Col == upperLimit) MakeFace(cubit, Axis.Right, template);
-        if (cubit.Row == lowerLimit) MakeFace(cubit, Axis.Down, template);
-        if (cubit.Row == upperLimit) MakeFace(cubit, Axis.Up, template);
-        if (cubit.Depth == lowerLimit) MakeFace(cubit, Axis.Back, template);
-        if (cubit.Depth == upperLimit) MakeFace(cubit, Axis.Forward, template);
+        if (cubit.Col == lowerLimit) MakeFace(cubit, Axis.Left, facePrototype);
+        if (cubit.Col == upperLimit) MakeFace(cubit, Axis.Right, facePrototype);
+        if (cubit.Row == lowerLimit) MakeFace(cubit, Axis.Down, facePrototype);
+        if (cubit.Row == upperLimit) MakeFace(cubit, Axis.Up, facePrototype);
+        if (cubit.Depth == lowerLimit) MakeFace(cubit, Axis.Back, facePrototype);
+        if (cubit.Depth == upperLimit) MakeFace(cubit, Axis.Forward, facePrototype);
     }
 
     private static void MakeFace(Cubit cubit, Axis direction, CubitFace template)
     {
         var face = Object.Instantiate(template);
         face.name = $"{direction} Face";
-        face.transform.SetParent(cubit.Transform);
-        face.transform.forward       = direction.ToVector();
-        face.transform.localPosition = face.transform.forward * CUBIT_EXTENT;
-        face.Parent                  = cubit;
-        cubit[direction]             = face;
+        face.Transform.SetParent(cubit.Transform);
+        face.Transform.forward = direction.ToVector();
+        face.Transform.localPosition = face.Transform.forward * 0.5f;
+        face.Parent = cubit;
+        cubit[direction] = face;
     }
 
     private static bool IsInterior(int x, int y, int z, int size)
     {
         var center = (size - 1f) / 2f;
-        var dx     = x - center;
-        var dy     = y - center;
-        var dz     = z - center;
+        var dx = x - center;
+        var dy = y - center;
+        var dz = z - center;
         return dx * dx + dy * dy + dz * dz < center * center;
     }
 
-    private static Cube SetupCube(GameObject target, int size, Cubit[,,] cubits)
-    {
-        var script = target.AddComponent<Cube>();
-        script.Init(size, cubits);
-        return script;
-    }
-
-    private static GameObject MakeParent(int size)
+    private static Cube MakeParent(int size)
     {
         var parent = new GameObject($"Cube {size}x{size}");
         AttachCollider(parent, size);
         SetupCanvas(parent);
         SetupRigidbody(parent);
-        return parent;
+        return parent.AddComponent<Cube>();
     }
 
     private static void AttachCollider(GameObject target, int dimension)
     {
         var collider = target.AddComponent<BoxCollider>();
         collider.isTrigger = true;
-        collider.size      = Vector3.one * dimension; // * spacing;
-        target.layer       = LayerMask.NameToLayer("Cube");
+        collider.size = Vector3.one * dimension; // * spacing;
+        target.layer = LayerMask.NameToLayer("Cube");
     }
 
     private static void SetupCanvas(GameObject target)
@@ -126,7 +122,7 @@ public static class CubeBuilder
         canvas.renderMode = RenderMode.WorldSpace;
 
         var scaler = target.AddComponent<CanvasScaler>();
-        scaler.dynamicPixelsPerUnit   = 100f;
+        scaler.dynamicPixelsPerUnit = 100f;
         scaler.referencePixelsPerUnit = 100f;
     }
 
@@ -134,6 +130,63 @@ public static class CubeBuilder
     {
         var body = target.AddComponent<Rigidbody>();
         body.angularDrag = 10;
-        body.useGravity  = false;
+        body.useGravity = false;
+    }
+
+    private static Slice MakeSlice(Cube owner, List<int> indices, int order, Axis axis)
+    {
+        var centerOffset = -axis.ToVector() * (owner.Size - 1) / 2;
+        var orderOffset = axis.ToVector() * order;
+        var container = new GameObject($"Slice {axis.ToVector()} #{order}")
+        {
+            transform =
+                {
+                    position = owner.Center + centerOffset + orderOffset,
+                    parent   = owner.Transform
+                }
+        };
+        var slice = container.AddComponent<Slice>();
+        slice.Setup(owner, axis, indices);
+        return slice;
+    }
+
+    private static Slice[,] MakeSlices(Cube owner, Cubit[,,] cubits, int size)
+    {
+        var indices = new List<int>[3, size];
+        for (var i = 0; i < 3; i++)
+        for (var j = 0; j < size; j++)
+            indices[i, j] = new List<int>(size);
+
+        for (var depth = 0; depth < size; depth++)
+        for (var row = 0; row < size; row++)
+        for (var col = 0; col < size; col++)
+        {
+            if (cubits[col, row, depth] == null) continue;
+            var index = col + row * size + depth * size * size;
+            indices[Axis.Forward.ToInt(), depth].Add(index);
+            indices[Axis.Right.ToInt(), col].Add(index);
+            indices[Axis.Up.ToInt(), row].Add(index);
+        }
+
+        var slices = new Slice[Axis.Count.ToInt(), size];
+        for (var order = 0; order < size; order++)
+        {
+            var members = indices[Axis.Forward.ToInt(), order];
+            var slice   = MakeSlice(owner, members, order, Axis.Forward);
+            slices[Axis.Forward.ToInt(), order] = slice;
+            slices[Axis.Back.ToInt(), order]    = slice;
+
+            members                           = indices[Axis.Right.ToInt(), order];
+            slice                             = MakeSlice(owner, members, order, Axis.Right);
+            slices[Axis.Right.ToInt(), order] = slice;
+            slices[Axis.Left.ToInt(), order]  = slice;
+
+            members                          = indices[Axis.Up.ToInt(), order];
+            slice                            = MakeSlice(owner, members, order, Axis.Up);
+            slices[Axis.Up.ToInt(), order]   = slice;
+            slices[Axis.Down.ToInt(), order] = slice;
+        }
+
+        return slices;
     }
 }

@@ -25,29 +25,27 @@
 using DG.Tweening;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class App : StaticScriptBase<App>
 {
     [SerializeField] 
-    private float sceneTransitionDuration = 1f;
+    private const float sceneTransitionDuration = 0.4f;
 
     [SerializeField]
     private new    AppCamera camera;
-    //private static AppCamera Camera => instance.camera;
 
     private       Color  colorScheme;
     public static Color  ColorScheme => instance.colorScheme;
 
     [SerializeField]
-    private new AppAudio audio;
+    new private AppAudio audio;
 
-
-    void Start()
+    private void Start()
     {
-        // QualitySettings.vSyncCount = 1;
-        Application.targetFrameRate = 60;
+        //QualitySettings.vSyncCount = 1;
+        //Application.targetFrameRate = 60;
+        WordBank.LoadIntoMemory();
         StartCoroutine(Main());
     }
 
@@ -81,26 +79,26 @@ public class App : StaticScriptBase<App>
         return SceneManager.LoadSceneAsync(index);
     }
 
-    public static YieldInstruction FadeIn(bool music)
+    public static YieldInstruction FadeIn(bool music, float duration = sceneTransitionDuration)
     {
-        return instance.StartCoroutine(instance.DoFadeIn(music));
+        return instance.StartCoroutine(instance.DoFadeIn(music, duration));
     }
 
-    public static YieldInstruction FadeOut(bool music)
+    public static YieldInstruction FadeOut(bool music, float duration = sceneTransitionDuration)
     {
-        return instance.StartCoroutine(instance.DoFadeOut(music));
+        return instance.StartCoroutine(instance.DoFadeOut(music, duration));
     }
 
-    private IEnumerator DoFadeIn(bool music)
+    private IEnumerator DoFadeIn(bool music, float duration)
     {
-        audio.FadeIn(music ? sceneTransitionDuration : 0f);
-        yield return camera.FadeIn(sceneTransitionDuration);
+        audio.FadeIn(music ? duration : 0f);
+        yield return camera.FadeIn(duration);
     }
 
-    private IEnumerator DoFadeOut(bool music)
+    private IEnumerator DoFadeOut(bool music, float duration)
     {
-        audio.FadeOut(music ? sceneTransitionDuration : 0f);
-        yield return camera.FadeOut(sceneTransitionDuration);
+        audio.FadeOut(music ? duration : 0f);
+        yield return camera.FadeOut(duration);
 
     }
 

@@ -47,14 +47,20 @@ public class GamePresentation : MonoBehaviour
     private void Awake()
     {
         AllowUIInput(false);
-        wordButton.OnClick += () => WordButtonClicked?.Invoke();
-        snapButton.OnClick += () => SnapButtonClicked?.Invoke();
+        wordButton.OnClick              += () => WordButtonClicked?.Invoke();
+        snapButton.OnClick              += () => SnapButtonClicked?.Invoke();
     }
 
-    public YieldInstruction IntroSequence()
+    public YieldInstruction DisplayDifficultyMenu()
     {
-        return StartCoroutine(DoIntroSequence());
+        return StartCoroutine(DoDisplayDifficultyMenu());
     }
+
+    public YieldInstruction RevealWord()
+    {
+        return StartCoroutine(DoRevealWord());
+    }
+
 
     public void DisplayDictScreen()
     {
@@ -89,23 +95,17 @@ public class GamePresentation : MonoBehaviour
         inGameMusic.PlayLayers(current);
     }
 
-    private IEnumerator DoIntroSequence()
-    {
-        yield return StartCoroutine(DisplayDifficultyMenu());
-        yield return StartCoroutine(RevealWord());
-    }
-
-    private IEnumerator DisplayDifficultyMenu()
+    private IEnumerator DoDisplayDifficultyMenu()
     {
         yield return difficultyMenu.Display();
-        DifficultyChosen?.Invoke(difficultyMenu.Selection ?? PuzzleDifficulty.Hard);
+        DifficultyChosen?.Invoke(difficultyMenu.Selection.Value);
         Destroy(difficultyMenu.gameObject);
     }
 
-    private IEnumerator RevealWord()
+    private IEnumerator DoRevealWord()
     {
-        wordText.Show();
         yield return dictScreen.Show(0.4f);
+        wordText.Show();
         yield return new AwaitTouchOrTimeout(10f);
         yield return dictScreen.Hide(0.4f);
         FadeOutUIBackground();

@@ -39,8 +39,8 @@ public class DifficultyScreen : MonoBehaviour
     [SerializeField] private float       fadeTime  = 0.25f;
     [SerializeField] private float       fadeDelay = 0.125f;
 
-    public PuzzleDifficulty? Selection { get; private set;}
-    Tween outro;
+    public  PuzzleDifficulty? Selection { get; private set; }
+    private Tween             outro;
 
     private void Awake()
     {
@@ -95,7 +95,6 @@ public class DifficultyScreen : MonoBehaviour
         canvasGroup.interactable   = true;
         canvasGroup.blocksRaycasts = true;
         while (Selection == null) yield return null;
-
         yield return AnimateOutro();
     }
 
